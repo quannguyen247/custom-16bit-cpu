@@ -120,9 +120,26 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 3248 424 3416 440)
+	(rect 3248 392 3416 408)
 	(text "INPUT" (rect 15 0 43 10)(font "Arial" (font_size 6)))
-	(text "RE" (rect 148 0 163 12)(font "Arial" ))
+	(text "REA" (rect 114 0 137 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 84 12)(pt 59 12))
+		(line (pt 84 4)(pt 59 4))
+		(line (pt 55 8)(pt 0 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 59 4)(pt 55 8))
+		(line (pt 59 12)(pt 55 8))
+	)
+	(flipy)
+	(text "VCC" (rect 20 7 40 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 3248 488 3416 504)
+	(text "INPUT" (rect 15 0 43 10)(font "Arial" (font_size 6)))
+	(text "REB" (rect 114 0 136 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 84 12)(pt 59 12))
@@ -14702,23 +14719,11 @@ applicable agreement for further details.
 )
 (connector
 	(pt 3216 400)
-	(pt 3232 400)
+	(pt 3248 400)
 )
 (connector
-	(pt 3232 496)
 	(pt 3216 496)
-)
-(connector
-	(pt 3248 432)
-	(pt 3232 432)
-)
-(connector
-	(pt 3232 496)
-	(pt 3232 432)
-)
-(connector
-	(pt 3232 432)
-	(pt 3232 400)
+	(pt 3248 496)
 )
 (junction (pt 528 1480))
 (junction (pt 688 1480))
@@ -15609,4 +15614,3 @@ applicable agreement for further details.
 (junction (pt 2952 504))
 (junction (pt 2936 488))
 (junction (pt 3024 488))
-(junction (pt 3232 432))

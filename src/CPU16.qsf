@@ -50,3 +50,4 @@ set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name BDF_FILE CPUTopDesign.bdf
+set_global_assignment -name BDF_FILE SignExt/SignExt.bdf

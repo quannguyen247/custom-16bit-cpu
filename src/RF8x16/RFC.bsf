@@ -1,0 +1,78 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 160 160)
+	(text "RFC" (rect 5 0 28 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 56 96)
+		(input)
+		(text "RSB" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "RSB" (rect 48 56 62 80)(font "Arial" (font_size 8))(vertical))
+		(line (pt 56 96)(pt 56 80))
+	)
+	(port
+		(pt 72 96)
+		(input)
+		(text "RSA" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "RSA" (rect 64 56 78 81)(font "Arial" (font_size 8))(vertical))
+		(line (pt 72 96)(pt 72 80))
+	)
+	(port
+		(pt 48 0)
+		(input)
+		(text "WS" (rect 0 0 20 14)(font "Arial" (font_size 8)))
+		(text "WS" (rect 40 24 54 44)(font "Arial" (font_size 8))(vertical))
+		(line (pt 48 0)(pt 48 16))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "I" (rect 0 0 2 14)(font "Arial" (font_size 8)))
+		(text "I" (rect 24 24 26 38)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 16 56 39 70)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 96 40)
+		(output)
+		(text "OA" (rect 0 0 18 14)(font "Arial" (font_size 8)))
+		(text "OA" (rect 56 32 74 46)(font "Arial" (font_size 8)))
+		(line (pt 96 40)(pt 80 40))
+	)
+	(port
+		(pt 96 24)
+		(output)
+		(text "OB" (rect 0 0 17 14)(font "Arial" (font_size 8)))
+		(text "OB" (rect 56 16 73 30)(font "Arial" (font_size 8)))
+		(line (pt 96 24)(pt 80 24))
+	)
+	(drawing
+		(rectangle (rect 16 16 80 80))
+	)
+)

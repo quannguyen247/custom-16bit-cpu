@@ -1,4 +1,5 @@
-db/
-output_files/
-incremental_db/
-simulation/
+src/db/
+src/output_files/
+src/incremental_db/
+src/simulation/
+src/CPU16.qws

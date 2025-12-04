@@ -83,8 +83,8 @@ set_global_assignment -name BDF_FILE CPUTopDesign.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ALU/Waveform_ALU.vwf
 set_global_assignment -name BDF_FILE ALU/MDU.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ALU/Waveform_MDU.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/ALU/Waveform_MDU.vwf"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/ALU/Waveform_MDU.vwf"

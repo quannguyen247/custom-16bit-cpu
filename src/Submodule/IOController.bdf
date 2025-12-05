@@ -53,7 +53,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 928 264 1104 280)
+	(rect 912 264 1088 280)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "REMC" (rect 90 0 121 12)(font "Arial" ))
 	(pt 0 8)
@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 928 312 1104 328)
+	(rect 912 312 1088 328)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "WEMC" (rect 90 0 124 12)(font "Arial" ))
 	(pt 0 8)
@@ -173,22 +173,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 848 280)
-	(pt 832 280)
-)
-(connector
-	(pt 848 312)
-	(pt 832 312)
-)
-(connector
-	(pt 912 272)
-	(pt 928 272)
-)
-(connector
-	(pt 912 320)
-	(pt 928 320)
-)
-(connector
 	(pt 848 264)
 	(pt 784 264)
 )
@@ -197,24 +181,24 @@ applicable agreement for further details.
 	(pt 784 264)
 )
 (connector
-	(pt 832 280)
-	(pt 832 296)
-)
-(connector
-	(pt 832 296)
-	(pt 832 312)
-)
-(connector
-	(pt 768 296)
-	(pt 832 296)
+	(pt 768 328)
+	(pt 784 328)
 )
 (connector
 	(pt 784 328)
 	(pt 800 328)
 )
 (connector
-	(pt 768 328)
-	(pt 784 328)
+	(pt 848 296)
+	(pt 768 296)
 )
-(junction (pt 832 296))
+(connector
+	(pt 848 280)
+	(pt 848 296)
+)
+(connector
+	(pt 848 296)
+	(pt 848 312)
+)
+(junction (pt 848 296))
 (junction (pt 784 328))

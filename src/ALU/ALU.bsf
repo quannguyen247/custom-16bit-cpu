@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 160 112)
+	(rect 16 16 168 112)
 	(text "ALU" (rect 5 0 29 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
@@ -45,20 +45,27 @@ applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
-		(pt 144 32)
+		(pt 152 32)
 		(output)
 		(text "O[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
-		(text "O[15..0]" (rect 79 27 123 41)(font "Arial" (font_size 8)))
-		(line (pt 144 32)(pt 128 32)(line_width 3))
+		(text "O[15..0]" (rect 87 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32)(line_width 3))
 	)
 	(port
-		(pt 144 48)
+		(pt 152 48)
+		(output)
+		(text "O[31..16]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "O[31..16]" (rect 80 43 131 57)(font "Arial" (font_size 8)))
+		(line (pt 152 48)(pt 136 48)(line_width 3))
+	)
+	(port
+		(pt 152 64)
 		(output)
 		(text "isZero" (rect 0 0 36 14)(font "Arial" (font_size 8)))
-		(text "isZero" (rect 87 43 123 57)(font "Arial" (font_size 8)))
-		(line (pt 144 48)(pt 128 48))
+		(text "isZero" (rect 95 59 131 73)(font "Arial" (font_size 8)))
+		(line (pt 152 64)(pt 136 64))
 	)
 	(drawing
-		(rectangle (rect 16 16 128 80))
+		(rectangle (rect 16 16 136 80))
 	)
 )

@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 184 112)
+	(rect 16 16 168 112)
 	(text "MDU" (rect 5 0 30 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
@@ -45,20 +45,20 @@ applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
-		(pt 168 32)
+		(pt 152 32)
 		(output)
-		(text "OUT[31..16]" (rect 0 0 67 14)(font "Arial" (font_size 8)))
-		(text "OUT[31..16]" (rect 80 27 147 41)(font "Arial" (font_size 8)))
-		(line (pt 168 32)(pt 152 32)(line_width 3))
+		(text "HI[15..0]" (rect 0 0 46 14)(font "Arial" (font_size 8)))
+		(text "HI[15..0]" (rect 85 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32)(line_width 3))
 	)
 	(port
-		(pt 168 48)
+		(pt 152 48)
 		(output)
-		(text "OUT[15..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
-		(text "OUT[15..0]" (rect 87 43 147 57)(font "Arial" (font_size 8)))
-		(line (pt 168 48)(pt 152 48)(line_width 3))
+		(text "LO[15..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "LO[15..0]" (rect 80 43 131 57)(font "Arial" (font_size 8)))
+		(line (pt 152 48)(pt 136 48)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 152 80))
+		(rectangle (rect 16 16 136 80))
 	)
 )

@@ -103,7 +103,7 @@ applicable agreement for further details.
 	(output)
 	(rect 360 488 376 664)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "O[31..16]" (rect 5 89 17 135)(font "Arial" )(vertical))
+	(text "Os[15..0]" (rect 5 89 17 135)(font "Arial" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))

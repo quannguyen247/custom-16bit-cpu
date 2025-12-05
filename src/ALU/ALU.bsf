@@ -54,8 +54,8 @@ applicable agreement for further details.
 	(port
 		(pt 152 48)
 		(output)
-		(text "O[31..16]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
-		(text "O[31..16]" (rect 80 43 131 57)(font "Arial" (font_size 8)))
+		(text "Os[15..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "Os[15..0]" (rect 80 43 131 57)(font "Arial" (font_size 8)))
 		(line (pt 152 48)(pt 136 48)(line_width 3))
 	)
 	(port

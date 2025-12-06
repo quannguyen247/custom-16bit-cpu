@@ -289,7 +289,7 @@ applicable agreement for further details.
 (symbol
 	(rect 704 80 840 176)
 	(text "Mux4_2to1" (rect 5 0 67 14)(font "Arial" (font_size 8)))
-	(text "inst6" (rect 8 80 31 92)(font "Arial" ))
+	(text "instMux4" (rect 8 80 51 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)

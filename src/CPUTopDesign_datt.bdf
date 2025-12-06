@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(output)
 	(rect 1872 512 1888 688)
 	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
-	(text "HI_OUT[15..0]" (rect 3 5 15 77)(font "Arial" )(vertical))
+	(text "HI_OUT[15..0]" (rect 3 5 15 76)(font "Arial" )(vertical))
 	(pt 8 176)
 	(drawing
 		(line (pt 8 176)(pt 8 124))
@@ -56,7 +56,7 @@ applicable agreement for further details.
 	(output)
 	(rect 1888 512 1904 688)
 	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
-	(text "LO_OUT[15..0]" (rect 0 5 12 80)(font "Arial" )(vertical))
+	(text "LO_OUT[15..0]" (rect 0 5 12 79)(font "Arial" )(vertical))
 	(pt 8 176)
 	(drawing
 		(line (pt 8 176)(pt 8 124))
@@ -865,7 +865,7 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "Instruction[9..0]" (rect 616 696 693 708)(font "Arial" ))
+	(text "Instruction[9..0]" (rect 712 688 789 700)(font "Arial" ))
 	(pt 704 704)
 	(pt 880 704)
 	(bus)
@@ -904,7 +904,7 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "Instruction[3..0]" (rect 726 768 803 780)(font "Arial" ))
+	(text "Instruction[3..0]" (rect 710 768 787 780)(font "Arial" ))
 	(pt 704 784)
 	(pt 1328 784)
 	(bus)
@@ -941,7 +941,7 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "Instruction[6..0]" (rect 616 568 693 580)(font "Arial" ))
+	(text "Instruction[6..0]" (rect 712 560 789 572)(font "Arial" ))
 	(pt 704 576)
 	(pt 880 576)
 	(bus)

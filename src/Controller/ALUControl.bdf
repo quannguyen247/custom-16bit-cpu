@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect -32 216 136 232)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Funct[3..0]" (rect 5 0 60 12)(font "Arial" ))
+	(text "Funct[3..0]" (rect 5 0 59 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -53,7 +53,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 848 104 1026 120)
+	(rect 840 104 1018 120)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ALUControl[3..0]" (rect 90 0 172 12)(font "Arial" ))
 	(pt 0 8)
@@ -81,42 +81,6 @@ applicable agreement for further details.
 		(line (pt 78 4)(pt 82 8))
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
-	)
-)
-(symbol
-	(rect 680 80 832 176)
-	(text "mux21_4" (rect 5 0 56 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 80 25 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 21 27 29 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "Data0[3..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
-		(text "Data0[3..0]" (rect 21 43 82 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "Data1[3..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
-		(text "Data1[3..0]" (rect 21 59 82 73)(font "Arial" (font_size 8)))
-		(line (pt 0 64)(pt 16 64)(line_width 3))
-	)
-	(port
-		(pt 152 32)
-		(output)
-		(text "O[3..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
-		(text "O[3..0]" (rect 94 27 131 41)(font "Arial" (font_size 8)))
-		(line (pt 152 32)(pt 136 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 136 80))
 	)
 )
 (symbol
@@ -322,6 +286,42 @@ applicable agreement for further details.
 		(arc (pt 31 36)(pt 31 12)(rect 19 12 44 37))
 	)
 )
+(symbol
+	(rect 704 80 840 176)
+	(text "Mux4_2to1" (rect 5 0 67 14)(font "Arial" (font_size 8)))
+	(text "inst6" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "S" (rect 21 27 29 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "D0[3..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "D0[3..0]" (rect 21 43 64 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "D1[3..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "D1[3..0]" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "O[3..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "O[3..0]" (rect 78 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 80))
+	)
+)
 (connector
 	(pt 256 32)
 	(pt 272 32)
@@ -444,30 +444,6 @@ applicable agreement for further details.
 	(pt 648 72)
 )
 (connector
-	(pt 648 224)
-	(pt 648 144)
-	(bus)
-)
-(connector
-	(pt 608 184)
-	(pt 608 112)
-)
-(connector
-	(pt 608 112)
-	(pt 680 112)
-)
-(connector
-	(text "Data0[3..0]" (rect 658 112 713 124)(font "Arial" ))
-	(pt 648 128)
-	(pt 680 128)
-	(bus)
-)
-(connector
-	(pt 648 144)
-	(pt 680 144)
-	(bus)
-)
-(connector
 	(pt 648 72)
 	(pt 648 128)
 	(bus)
@@ -478,27 +454,12 @@ applicable agreement for further details.
 	(pt 648 128)
 )
 (connector
-	(pt 832 112)
-	(pt 848 112)
-	(bus)
-)
-(connector
 	(pt 312 272)
 	(pt 192 272)
 )
 (connector
 	(pt 312 264)
 	(pt 208 264)
-)
-(connector
-	(pt 192 224)
-	(pt 208 224)
-	(bus)
-)
-(connector
-	(pt 208 224)
-	(pt 648 224)
-	(bus)
 )
 (connector
 	(pt 312 280)
@@ -533,6 +494,40 @@ applicable agreement for further details.
 	(pt 208 224)
 	(pt 208 264)
 )
+(connector
+	(pt 192 224)
+	(pt 208 224)
+	(bus)
+)
+(connector
+	(pt 208 224)
+	(pt 648 224)
+	(bus)
+)
+(connector
+	(pt 608 184)
+	(pt 608 112)
+)
+(connector
+	(pt 648 224)
+	(pt 648 144)
+	(bus)
+)
+(connector
+	(pt 608 112)
+	(pt 704 112)
+)
+(connector
+	(text "Data0[3..0]" (rect 650 112 705 124)(font "Arial" ))
+	(pt 648 128)
+	(pt 704 128)
+	(bus)
+)
+(connector
+	(pt 648 144)
+	(pt 704 144)
+	(bus)
+)
 (junction (pt 144 -8))
 (junction (pt 176 32))
 (junction (pt 192 -8))
@@ -545,3 +540,4 @@ applicable agreement for further details.
 (junction (pt 192 224))
 (junction (pt 208 224))
 (junction (pt 176 224))
+(text "Can't Ctrl + K" (rect 848 136 921 150)(font "Arial" (font_size 8)))

@@ -158,78 +158,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1728 728 1864 808)
-	(text "Reg16" (rect 5 0 41 14)(font "Arial" (font_size 8)))
-	(text "HI" (rect 8 64 19 76)(font "Arial" ))
-	(port
-		(pt 0 40)
-		(input)
-		(text "WE" (rect 0 0 18 14)(font "Arial" (font_size 8)))
-		(text "WE" (rect 16 32 34 46)(font "Arial" (font_size 8)))
-		(line (pt 0 40)(pt 16 40))
-	)
-	(port
-		(pt 0 56)
-		(input)
-		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "CLK" (rect 16 48 39 62)(font "Arial" (font_size 8)))
-		(line (pt 0 56)(pt 16 56))
-	)
-	(port
-		(pt 0 24)
-		(input)
-		(text "I[15..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
-		(text "I[15..0]" (rect 16 16 53 30)(font "Arial" (font_size 8)))
-		(line (pt 0 24)(pt 16 24)(line_width 3))
-	)
-	(port
-		(pt 136 24)
-		(output)
-		(text "O[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
-		(text "O[15..0]" (rect 72 16 116 30)(font "Arial" (font_size 8)))
-		(line (pt 136 24)(pt 120 24)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 120 64))
-	)
-)
-(symbol
-	(rect 1728 808 1864 888)
-	(text "Reg16" (rect 5 0 41 14)(font "Arial" (font_size 8)))
-	(text "LO" (rect 8 64 22 76)(font "Arial" ))
-	(port
-		(pt 0 40)
-		(input)
-		(text "WE" (rect 0 0 18 14)(font "Arial" (font_size 8)))
-		(text "WE" (rect 16 32 34 46)(font "Arial" (font_size 8)))
-		(line (pt 0 40)(pt 16 40))
-	)
-	(port
-		(pt 0 56)
-		(input)
-		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "CLK" (rect 16 48 39 62)(font "Arial" (font_size 8)))
-		(line (pt 0 56)(pt 16 56))
-	)
-	(port
-		(pt 0 24)
-		(input)
-		(text "I[15..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
-		(text "I[15..0]" (rect 16 16 53 30)(font "Arial" (font_size 8)))
-		(line (pt 0 24)(pt 16 24)(line_width 3))
-	)
-	(port
-		(pt 136 24)
-		(output)
-		(text "O[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
-		(text "O[15..0]" (rect 72 16 116 30)(font "Arial" (font_size 8)))
-		(line (pt 136 24)(pt 120 24)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 120 64))
-	)
-)
-(symbol
 	(rect 968 0 1168 176)
 	(text "ControlUnit" (rect 1 1 62 15)(font "Arial" (font_size 8)))
 	(text "inst25" (rect 0 160 29 172)(font "Arial" ))
@@ -1286,11 +1214,6 @@ applicable agreement for further details.
 	(pt 1728 768)
 )
 (connector
-	(pt 1680 752)
-	(pt 1728 752)
-	(bus)
-)
-(connector
 	(pt 1664 296)
 	(pt 1664 832)
 	(bus)
@@ -1302,11 +1225,6 @@ applicable agreement for further details.
 (connector
 	(pt 1592 848)
 	(pt 1728 848)
-)
-(connector
-	(pt 1664 832)
-	(pt 1728 832)
-	(bus)
 )
 (connector
 	(pt 1688 864)
@@ -1325,18 +1243,8 @@ applicable agreement for further details.
 	(pt 1728 864)
 )
 (connector
-	(pt 1864 832)
-	(pt 1896 832)
-	(bus)
-)
-(connector
 	(pt 1896 832)
 	(pt 1896 688)
-	(bus)
-)
-(connector
-	(pt 1864 752)
-	(pt 1880 752)
 	(bus)
 )
 (connector
@@ -1393,6 +1301,16 @@ applicable agreement for further details.
 (connector
 	(pt 736 296)
 	(pt 736 360)
+	(bus)
+)
+(connector
+	(pt 1680 752)
+	(pt 1880 752)
+	(bus)
+)
+(connector
+	(pt 1664 832)
+	(pt 1896 832)
 	(bus)
 )
 (junction (pt 1048 424))

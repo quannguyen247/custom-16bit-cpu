@@ -1983,166 +1983,6 @@ applicable agreement for further details.
 	(pt 1176 1032)
 )
 (connector
-	(text "CS0" (rect 421 160 442 172)(font "Arial" ))
-	(pt 456 176)
-	(pt 416 176)
-)
-(connector
-	(text "CS1" (rect 427 280 448 292)(font "Arial" ))
-	(pt 456 296)
-	(pt 416 296)
-)
-(connector
-	(text "CS2" (rect 425 400 446 412)(font "Arial" ))
-	(pt 456 416)
-	(pt 416 416)
-)
-(connector
-	(text "CS3" (rect 425 520 446 532)(font "Arial" ))
-	(pt 456 536)
-	(pt 416 536)
-)
-(connector
-	(text "CS4" (rect 426 640 447 652)(font "Arial" ))
-	(pt 456 656)
-	(pt 416 656)
-)
-(connector
-	(text "CS5" (rect 426 760 447 772)(font "Arial" ))
-	(pt 456 776)
-	(pt 416 776)
-)
-(connector
-	(text "CS6" (rect 422 880 443 892)(font "Arial" ))
-	(pt 456 896)
-	(pt 416 896)
-)
-(connector
-	(text "CS7" (rect 423 1000 444 1012)(font "Arial" ))
-	(pt 456 1016)
-	(pt 416 1016)
-)
-(connector
-	(text "CS8" (rect 681 160 702 172)(font "Arial" ))
-	(pt 712 176)
-	(pt 672 176)
-)
-(connector
-	(text "CS9" (rect 684 280 705 292)(font "Arial" ))
-	(pt 712 296)
-	(pt 672 296)
-)
-(connector
-	(text "CS10" (rect 682 400 709 412)(font "Arial" ))
-	(pt 712 416)
-	(pt 672 416)
-)
-(connector
-	(text "CS11" (rect 679 520 706 532)(font "Arial" ))
-	(pt 712 536)
-	(pt 672 536)
-)
-(connector
-	(text "CS12" (rect 682 640 709 652)(font "Arial" ))
-	(pt 712 656)
-	(pt 672 656)
-)
-(connector
-	(text "CS13" (rect 677 760 704 772)(font "Arial" ))
-	(pt 712 776)
-	(pt 672 776)
-)
-(connector
-	(text "CS14" (rect 678 880 705 892)(font "Arial" ))
-	(pt 712 896)
-	(pt 672 896)
-)
-(connector
-	(text "CS15" (rect 682 1000 709 1012)(font "Arial" ))
-	(pt 712 1016)
-	(pt 672 1016)
-)
-(connector
-	(text "CS16" (rect 939 160 966 172)(font "Arial" ))
-	(pt 968 176)
-	(pt 928 176)
-)
-(connector
-	(text "CS17" (rect 937 280 964 292)(font "Arial" ))
-	(pt 968 296)
-	(pt 928 296)
-)
-(connector
-	(text "CS18" (rect 937 400 964 412)(font "Arial" ))
-	(pt 968 416)
-	(pt 928 416)
-)
-(connector
-	(text "CS19" (rect 933 520 960 532)(font "Arial" ))
-	(pt 968 536)
-	(pt 928 536)
-)
-(connector
-	(text "CS20" (rect 936 640 963 652)(font "Arial" ))
-	(pt 968 656)
-	(pt 928 656)
-)
-(connector
-	(text "CS21" (rect 939 760 966 772)(font "Arial" ))
-	(pt 968 776)
-	(pt 928 776)
-)
-(connector
-	(text "CS22" (rect 938 880 965 892)(font "Arial" ))
-	(pt 968 896)
-	(pt 928 896)
-)
-(connector
-	(text "CS23" (rect 938 1000 965 1012)(font "Arial" ))
-	(pt 968 1016)
-	(pt 928 1016)
-)
-(connector
-	(text "CS24" (rect 1190 160 1217 172)(font "Arial" ))
-	(pt 1216 176)
-	(pt 1176 176)
-)
-(connector
-	(text "CS25" (rect 1185 280 1212 292)(font "Arial" ))
-	(pt 1216 296)
-	(pt 1176 296)
-)
-(connector
-	(text "CS26" (rect 1184 400 1211 412)(font "Arial" ))
-	(pt 1216 416)
-	(pt 1176 416)
-)
-(connector
-	(text "CS27" (rect 1189 520 1216 532)(font "Arial" ))
-	(pt 1216 536)
-	(pt 1176 536)
-)
-(connector
-	(text "CS28" (rect 1192 640 1219 652)(font "Arial" ))
-	(pt 1216 656)
-	(pt 1176 656)
-)
-(connector
-	(text "CS29" (rect 1187 760 1214 772)(font "Arial" ))
-	(pt 1216 776)
-	(pt 1176 776)
-)
-(connector
-	(text "CS30" (rect 1188 880 1215 892)(font "Arial" ))
-	(pt 1216 896)
-	(pt 1176 896)
-)
-(connector
-	(text "CS31" (rect 1185 1000 1212 1012)(font "Arial" ))
-	(pt 1216 1016)
-	(pt 1176 1016)
-)
-(connector
 	(text "D[15..0]" (rect 946 624 986 636)(font "Arial" ))
 	(pt 968 640)
 	(pt 936 640)
@@ -2184,6 +2024,166 @@ applicable agreement for further details.
 	(pt 304 208)
 	(pt 344 208)
 	(bus)
+)
+(connector
+	(text "CS[0]" (rect 421 160 449 172)(font "Arial" ))
+	(pt 456 176)
+	(pt 416 176)
+)
+(connector
+	(text "CS[1]" (rect 427 280 455 292)(font "Arial" ))
+	(pt 456 296)
+	(pt 416 296)
+)
+(connector
+	(text "CS[2]" (rect 425 400 453 412)(font "Arial" ))
+	(pt 456 416)
+	(pt 416 416)
+)
+(connector
+	(text "CS[3]" (rect 425 520 453 532)(font "Arial" ))
+	(pt 456 536)
+	(pt 416 536)
+)
+(connector
+	(text "CS[5]" (rect 426 760 454 772)(font "Arial" ))
+	(pt 456 776)
+	(pt 416 776)
+)
+(connector
+	(text "CS[6]" (rect 422 880 450 892)(font "Arial" ))
+	(pt 456 896)
+	(pt 416 896)
+)
+(connector
+	(text "CS[7]" (rect 423 1000 451 1012)(font "Arial" ))
+	(pt 456 1016)
+	(pt 416 1016)
+)
+(connector
+	(text "CS[8]" (rect 681 160 709 172)(font "Arial" ))
+	(pt 712 176)
+	(pt 672 176)
+)
+(connector
+	(text "CS[9]" (rect 684 280 712 292)(font "Arial" ))
+	(pt 712 296)
+	(pt 672 296)
+)
+(connector
+	(text "CS[10]" (rect 682 400 716 412)(font "Arial" ))
+	(pt 712 416)
+	(pt 672 416)
+)
+(connector
+	(text "CS[11]" (rect 679 520 713 532)(font "Arial" ))
+	(pt 712 536)
+	(pt 672 536)
+)
+(connector
+	(text "CS[12]" (rect 682 640 716 652)(font "Arial" ))
+	(pt 712 656)
+	(pt 672 656)
+)
+(connector
+	(text "CS[13]" (rect 677 760 711 772)(font "Arial" ))
+	(pt 712 776)
+	(pt 672 776)
+)
+(connector
+	(text "CS[14]" (rect 678 880 712 892)(font "Arial" ))
+	(pt 712 896)
+	(pt 672 896)
+)
+(connector
+	(text "CS[15]" (rect 682 1000 716 1012)(font "Arial" ))
+	(pt 712 1016)
+	(pt 672 1016)
+)
+(connector
+	(text "CS[16]" (rect 939 160 973 172)(font "Arial" ))
+	(pt 968 176)
+	(pt 928 176)
+)
+(connector
+	(text "CS[17]" (rect 937 280 971 292)(font "Arial" ))
+	(pt 968 296)
+	(pt 928 296)
+)
+(connector
+	(text "CS[18]" (rect 937 400 971 412)(font "Arial" ))
+	(pt 968 416)
+	(pt 928 416)
+)
+(connector
+	(text "CS[19]" (rect 933 520 967 532)(font "Arial" ))
+	(pt 968 536)
+	(pt 928 536)
+)
+(connector
+	(text "CS[20]" (rect 936 640 970 652)(font "Arial" ))
+	(pt 968 656)
+	(pt 928 656)
+)
+(connector
+	(text "CS[21]" (rect 939 760 973 772)(font "Arial" ))
+	(pt 968 776)
+	(pt 928 776)
+)
+(connector
+	(text "CS[22]" (rect 938 880 972 892)(font "Arial" ))
+	(pt 968 896)
+	(pt 928 896)
+)
+(connector
+	(text "CS[23]" (rect 938 1000 972 1012)(font "Arial" ))
+	(pt 968 1016)
+	(pt 928 1016)
+)
+(connector
+	(text "CS[31]" (rect 1185 1000 1219 1012)(font "Arial" ))
+	(pt 1216 1016)
+	(pt 1176 1016)
+)
+(connector
+	(text "CS[30]" (rect 1188 880 1222 892)(font "Arial" ))
+	(pt 1216 896)
+	(pt 1176 896)
+)
+(connector
+	(text "CS[29]" (rect 1187 760 1221 772)(font "Arial" ))
+	(pt 1216 776)
+	(pt 1176 776)
+)
+(connector
+	(text "CS[28]" (rect 1192 640 1226 652)(font "Arial" ))
+	(pt 1216 656)
+	(pt 1176 656)
+)
+(connector
+	(text "CS[27]" (rect 1189 520 1223 532)(font "Arial" ))
+	(pt 1216 536)
+	(pt 1176 536)
+)
+(connector
+	(text "CS[26]" (rect 1184 400 1218 412)(font "Arial" ))
+	(pt 1216 416)
+	(pt 1176 416)
+)
+(connector
+	(text "CS[25]" (rect 1185 280 1219 292)(font "Arial" ))
+	(pt 1216 296)
+	(pt 1176 296)
+)
+(connector
+	(text "CS[24]" (rect 1190 160 1224 172)(font "Arial" ))
+	(pt 1216 176)
+	(pt 1176 176)
+)
+(connector
+	(text "CS[4]" (rect 426 640 454 652)(font "Arial" ))
+	(pt 456 656)
+	(pt 416 656)
 )
 (junction (pt 1384 1072))
 (junction (pt 1384 280))

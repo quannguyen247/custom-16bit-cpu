@@ -1478,7 +1478,7 @@ applicable agreement for further details.
 	(pt 664 960)
 )
 (connector
-	(text "Opcode[2]" (rect 385 64 435 76)(font "Arial" ))
+	(text "Opcode[2]" (rect 377 64 427 76)(font "Arial" ))
 	(pt 368 80)
 	(pt 432 80)
 )
@@ -1507,7 +1507,7 @@ applicable agreement for further details.
 	(pt 432 824)
 )
 (connector
-	(text "Opcode[1]" (rect 385 104 435 116)(font "Arial" ))
+	(text "Opcode[1]" (rect 377 104 427 116)(font "Arial" ))
 	(pt 368 120)
 	(pt 416 120)
 )
@@ -1532,7 +1532,7 @@ applicable agreement for further details.
 	(pt 400 160)
 )
 (connector
-	(text "Opcode[0]" (rect 383 144 433 156)(font "Arial" ))
+	(text "Opcode[0]" (rect 375 144 425 156)(font "Arial" ))
 	(pt 400 160)
 	(pt 448 160)
 )

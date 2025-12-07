@@ -18,42 +18,33 @@ programming logic devices manufactured by Altera and sold by
 Altera or its authorized distributors.  Please refer to the 
 applicable agreement for further details.
 */
-(header "symbol" (version "1.1"))
+(header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 424 96)
-	(text "IMEM64x16" (rect 5 0 54 12)(font "Arial" ))
-	(text "inst" (rect 8 64 20 76)(font "Arial" ))
+	(rect 16 16 168 112)
+	(text "Decoder532EN" (rect 5 0 89 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "ADDRESS[ADDRESS_WIDTH-1..0]" (rect 0 0 159 12)(font "Arial" ))
-		(text "ADDRESS[ADDRESS_WIDTH-1..0]" (rect 21 27 180 39)(font "Arial" ))
+		(text "ADDR[4..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
+		(text "ADDR[4..0]" (rect 21 27 83 41)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
-		(pt 408 32)
+		(pt 0 48)
+		(input)
+		(text "EN" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "EN" (rect 21 43 36 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 152 32)
 		(output)
-		(text "DATA_OUT[DATA_WIDTH-1..0]" (rect 0 0 145 12)(font "Arial" ))
-		(text "DATA_OUT[DATA_WIDTH-1..0]" (rect 242 27 387 39)(font "Arial" ))
-		(line (pt 408 32)(pt 392 32)(line_width 3))
+		(text "I[31..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "I[31..0]" (rect 94 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32)(line_width 3))
 	)
-	(parameter
-		"ADDRESS_WIDTH"
-		"6"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"DATA_WIDTH"
-		"16"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"INIT_FILE"
-		"test.hex"
-		""
-		(type "PARAMETER_STRING")	)
 	(drawing
-		(rectangle (rect 16 16 392 64)(line_width 1))
+		(rectangle (rect 16 16 136 80))
 	)
-	(annotation_block (parameter)(rect 424 -64 524 16))
 )

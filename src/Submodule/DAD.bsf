@@ -20,24 +20,24 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 160 112)
-	(text "DAD" (rect 5 0 30 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 80 25 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "I[15..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
-		(text "I[15..0]" (rect 21 27 58 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 144 32)
-		(output)
-		(text "DAD[4..0]" (rect 0 0 54 14)(font "Arial" (font_size 8)))
-		(text "DAD[4..0]" (rect 69 27 123 41)(font "Arial" (font_size 8)))
-		(line (pt 144 32)(pt 128 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 128 80))
-	)
+    (rect 64 64 208 112)
+    (text "DAD" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+    (text "inst" (rect 0 32 17 44)(font "Arial" ))
+    (port
+        (pt 0 24)
+        (input)
+        (text "I[15..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+        (text "I[15..0]" (rect 16 16 53 30)(font "Arial" (font_size 8)))
+        (line (pt 0 24)(pt 16 24)(line_width 3))
+    )
+    (port
+        (pt 144 24)
+        (output)
+        (text "DAD[4..0]" (rect 0 0 54 14)(font "Arial" (font_size 8)))
+        (text "DAD[4..0]" (rect 72 16 126 30)(font "Arial" (font_size 8)))
+        (line (pt 144 24)(pt 128 24)(line_width 3))
+    )
+    (drawing
+        (rectangle (rect 16 16 128 32))
+    )
 )

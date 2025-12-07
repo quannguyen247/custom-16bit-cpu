@@ -1,0 +1,1 @@
+create_clock -name CPU16 -period 20.000 [get_ports {CLK}]

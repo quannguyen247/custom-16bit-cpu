@@ -61,6 +61,9 @@ set_global_assignment -name POWER_USE_INPUT_FILES OFF
 set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/DMEM32x16/Waveform_DMEM32x16.vwf"
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/ALU/Waveform_ALU.vwf"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
 set_global_assignment -name BDF_FILE CPUTopDesign_datt.bdf
 set_global_assignment -name BDF_FILE Controller/ControlUnit.bdf
 set_global_assignment -name BDF_FILE Controller/ALUop.bdf
@@ -110,13 +113,7 @@ set_global_assignment -name BDF_FILE Submodule/Mux_2to1.bdf
 set_global_assignment -name BSF_FILE Submodule/Mux_2to1.bsf
 set_global_assignment -name BDF_FILE Submodule/Mux3_2to1.bdf
 set_global_assignment -name SDC_FILE CPU16.sdc
-set_global_assignment -name USE_CONFIGURATION_DEVICE ON
-set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
-set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
-set_global_assignment -name BDF_FILE RF8x16/RF_1X16.bdf
 set_global_assignment -name BDF_FILE RF8x16/RFC16.bdf
-set_global_assignment -name BDF_FILE RF8x16/RF_8X16.1.bdf
-set_global_assignment -name BDF_FILE RF8x16/test.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

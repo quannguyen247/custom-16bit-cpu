@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE EP2C35F672C6
-set_global_assignment -name TOP_LEVEL_ENTITY RF_8X16
+set_global_assignment -name TOP_LEVEL_ENTITY CPUTopDesign_datt
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:05:12  DECEMBER 02, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -61,7 +61,6 @@ set_global_assignment -name POWER_USE_INPUT_FILES OFF
 set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/DMEM32x16/Waveform_DMEM32x16.vwf"
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/ALU/Waveform_ALU.vwf"
-set_global_assignment -name BDF_FILE CPUTopDesign_datt_tested.bdf
 set_global_assignment -name BDF_FILE CPUTopDesign_datt.bdf
 set_global_assignment -name BDF_FILE Controller/ControlUnit.bdf
 set_global_assignment -name BDF_FILE Controller/ALUop.bdf
@@ -114,4 +113,6 @@ set_global_assignment -name SDC_FILE CPU16.sdc
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

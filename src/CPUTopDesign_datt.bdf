@@ -817,7 +817,7 @@ applicable agreement for further details.
 	(rotate180)
 )
 (symbol
-	(rect 1112 184 1176 232)
+	(rect 1104 176 1168 224)
 	(text "AND2" (rect 39 38 63 48)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 38 -1 61 11)(font "Arial" ))
 	(port
@@ -1164,10 +1164,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1272 200)
-	(pt 1272 72)
-)
-(connector
 	(pt 704 24)
 	(pt 704 272)
 	(bus)
@@ -1493,23 +1489,6 @@ applicable agreement for further details.
 	(pt 1680 264)
 )
 (connector
-	(pt 1112 208)
-	(pt 1048 208)
-)
-(connector
-	(pt 1048 208)
-	(pt 1048 224)
-)
-(connector
-	(pt 1176 200)
-	(pt 1272 200)
-)
-(connector
-	(text "WE_HILO_n" (rect 1268 200 1329 212)(font "Arial" ))
-	(pt 1176 216)
-	(pt 1304 216)
-)
-(connector
 	(pt 1576 896)
 	(pt 1552 896)
 )
@@ -1525,6 +1504,27 @@ applicable agreement for further details.
 	(text "WE_HILO_n" (rect 1654 880 1715 892)(font "Arial" ))
 	(pt 1624 896)
 	(pt 1720 896)
+)
+(connector
+	(pt 1272 72)
+	(pt 1272 192)
+)
+(connector
+	(pt 1048 224)
+	(pt 1048 200)
+)
+(connector
+	(pt 1048 200)
+	(pt 1104 200)
+)
+(connector
+	(text "WE_HILO_n" (rect 1260 192 1321 204)(font "Arial" ))
+	(pt 1168 208)
+	(pt 1296 208)
+)
+(connector
+	(pt 1168 192)
+	(pt 1272 192)
 )
 (junction (pt 1048 424))
 (junction (pt 1680 280))

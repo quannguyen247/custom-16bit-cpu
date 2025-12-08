@@ -1,0 +1,11 @@
+{ "" "" "" "Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature." {  } {  } 0 292013 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Found 32 output pins without output pin load capacitance assignment" {  } {  } 0 306006 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Always-enabled tri-state buffer(s) removed" {  } {  } 0 13044 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Memory Initialization File or Hexadecimal (Intel-Format) File \"D:/GitProjectCaNhan/custom-16bit-cpu/src/db/CPU16.ram0_IMEM64x16_6b260f49.hdl.mif\" contains \"don't care\" values -- overwriting them with 0s" {  } {  } 0 127007 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Verilog HDL warning at IMEM64x16.v(13): number of words (4) in memory file does not match the number of elements in the address range \[0:63\]" {  } {  } 0 10850 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Net \"my_mem.data_a\" at IMEM64x16.v(10) has no driver or initial value, using a default initial value '0'" {  } {  } 0 10030 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Net \"my_mem.waddr_a\" at IMEM64x16.v(10) has no driver or initial value, using a default initial value '0'" {  } {  } 0 10030 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Net \"my_mem.we_a\" at IMEM64x16.v(10) has no driver or initial value, using a default initial value '0'" {  } {  } 0 10030 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Tri-state node(s) do not directly drive top-level pin(s)" {  } {  } 0 13046 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "No exact pin location assignment(s) for 33 pins of 33 total pins" {  } {  } 0 169085 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "*" {  } {  } 0 20028 "" 0 0 "Quartus II" 0 -1 0 ""}

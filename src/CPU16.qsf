@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE EP2C35F672C6
-set_global_assignment -name TOP_LEVEL_ENTITY CPUTopDesign_datt_test
+set_global_assignment -name TOP_LEVEL_ENTITY CPUTopDesign_datt
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:05:12  DECEMBER 02, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -64,6 +64,12 @@ set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan
 set_global_assignment -name USE_CONFIGURATION_DEVICE ON
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name BDF_FILE ALU/Mult16_1.bdf
+set_global_assignment -name BDF_FILE ALU/Mult16.bdf
+set_global_assignment -name BDF_FILE ALU/Div16.bdf
+set_global_assignment -name BDF_FILE ALU/Div_Step.bdf
+set_global_assignment -name BDF_FILE ALU/Extend16bit.bdf
+set_global_assignment -name BDF_FILE ALU/Abs.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE WaveformCPU.vwf
 set_global_assignment -name BDF_FILE CPUTopDesign_datt_test.bdf
 set_global_assignment -name BDF_FILE CPUTopDesign_datt.bdf
@@ -80,10 +86,6 @@ set_global_assignment -name VERILOG_FILE IMEM64x16/IMEM64x16.v
 set_global_assignment -name BDF_FILE Submodule/DAD.bdf
 set_global_assignment -name BDF_FILE PC/PC.bdf
 set_global_assignment -name BDF_FILE Submodule/IOController.bdf
-set_global_assignment -name VERILOG_FILE ALU/mult16.v
-set_global_assignment -name QIP_FILE ALU/mult16.qip
-set_global_assignment -name VERILOG_FILE ALU/div16.v
-set_global_assignment -name QIP_FILE ALU/div16.qip
 set_global_assignment -name BDF_FILE SignExt/SignExt10.bdf
 set_global_assignment -name BDF_FILE SignExt/SignExt7.bdf
 set_global_assignment -name BDF_FILE ALU/srrrr.bdf

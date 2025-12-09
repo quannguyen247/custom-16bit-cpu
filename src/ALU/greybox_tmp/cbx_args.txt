@@ -1,0 +1,23 @@
+LPM_SIZE=16
+LPM_TYPE=LPM_MUX
+LPM_WIDTH=16
+LPM_WIDTHS=4
+DEVICE_FAMILY="Cyclone II"
+data
+data
+data
+data
+data
+data
+data
+data
+data
+data
+data
+data
+data
+data
+data
+data
+sel
+result

@@ -1253,7 +1253,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 152 176 304 272)
-	(text "Decoder532EN" (rect 5 0 89 14)(font "Arial" (font_size 8)))
+	(text "Decoder5to32_EN" (rect 5 0 107 14)(font "Arial" (font_size 8)))
 	(text "inst32" (rect 8 80 37 92)(font "Arial" ))
 	(port
 		(pt 0 32)

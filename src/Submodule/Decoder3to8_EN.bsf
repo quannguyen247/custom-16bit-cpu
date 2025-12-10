@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 112 208)
-	(text "Decoder38EN" (rect 5 0 82 14)(font "Arial" (font_size 8)))
+	(text "Decoder3to8_EN" (rect 5 0 100 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 176 25 188)(font "Arial" ))
 	(port
 		(pt 0 32)

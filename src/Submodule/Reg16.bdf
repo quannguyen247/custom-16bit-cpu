@@ -15,7 +15,7 @@ Subscription Agreement, Altera MegaCore Function License
 Agreement, or other applicable license agreement, including, 
 without limitation, that your use is for the sole purpose of 
 programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
+Altera or its authorized disTRIbutors.  Please refer to the 
 applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
@@ -100,45 +100,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 888 384 952 448)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux0" (rect 0 48 27 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 952 456 1000 488)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri0" (rect 3 21 18 33)(font "Arial" ))
+	(text "TRI0" (rect 3 21 18 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -169,7 +133,7 @@ applicable agreement for further details.
 (symbol
 	(rect 888 448 952 528)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff0" (rect 3 68 24 80)(font "Arial" ))
+	(text "DFF0" (rect 3 68 24 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -217,45 +181,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1064 384 1128 448)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux1" (rect 0 48 27 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1128 456 1176 488)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri1" (rect 3 21 18 33)(font "Arial" ))
+	(text "TRI1" (rect 3 21 18 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -286,7 +214,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1064 448 1128 528)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff1" (rect 3 68 24 80)(font "Arial" ))
+	(text "DFF1" (rect 3 68 24 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -334,45 +262,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1240 384 1304 448)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux2" (rect 0 48 27 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1304 456 1352 488)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri2" (rect 3 21 18 33)(font "Arial" ))
+	(text "TRI2" (rect 3 21 18 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -403,7 +295,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1240 448 1304 528)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff2" (rect 3 68 24 80)(font "Arial" ))
+	(text "DFF2" (rect 3 68 24 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -451,45 +343,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1416 384 1480 448)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux3" (rect 0 48 27 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1480 456 1528 488)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri3" (rect 3 21 18 33)(font "Arial" ))
+	(text "TRI3" (rect 3 21 18 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -520,7 +376,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1416 448 1480 528)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff3" (rect 3 68 24 80)(font "Arial" ))
+	(text "DFF3" (rect 3 68 24 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -568,45 +424,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 888 624 952 688)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux4" (rect 0 48 27 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 952 696 1000 728)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri4" (rect 3 21 18 33)(font "Arial" ))
+	(text "TRI4" (rect 3 21 18 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -637,7 +457,7 @@ applicable agreement for further details.
 (symbol
 	(rect 888 688 952 768)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff4" (rect 3 68 24 80)(font "Arial" ))
+	(text "DFF4" (rect 3 68 24 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -685,45 +505,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1064 624 1128 688)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux5" (rect 0 48 27 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1128 696 1176 728)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri5" (rect 3 21 18 33)(font "Arial" ))
+	(text "TRI5" (rect 3 21 18 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -754,7 +538,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1064 688 1128 768)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff5" (rect 3 68 24 80)(font "Arial" ))
+	(text "DFF5" (rect 3 68 24 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -802,45 +586,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1240 624 1304 688)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux6" (rect 0 48 27 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1304 696 1352 728)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri6" (rect 3 21 18 33)(font "Arial" ))
+	(text "TRI6" (rect 3 21 18 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -871,7 +619,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1240 688 1304 768)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff6" (rect 3 68 24 80)(font "Arial" ))
+	(text "DFF6" (rect 3 68 24 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -919,45 +667,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1416 624 1480 688)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux7" (rect 0 48 27 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1480 696 1528 728)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri7" (rect 3 21 18 33)(font "Arial" ))
+	(text "TRI7" (rect 3 21 18 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -988,7 +700,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1416 688 1480 768)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff7" (rect 3 68 24 80)(font "Arial" ))
+	(text "DFF7" (rect 3 68 24 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -1036,45 +748,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 888 864 952 928)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux8" (rect 0 48 27 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 952 936 1000 968)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri8" (rect 3 21 18 33)(font "Arial" ))
+	(text "TRI8" (rect 3 21 18 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1105,7 +781,7 @@ applicable agreement for further details.
 (symbol
 	(rect 888 928 952 1008)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff8" (rect 3 68 24 80)(font "Arial" ))
+	(text "DFF8" (rect 3 68 24 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -1153,45 +829,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1064 864 1128 928)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux9" (rect 0 48 27 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1128 936 1176 968)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri9" (rect 3 21 18 33)(font "Arial" ))
+	(text "TRI9" (rect 3 21 18 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1222,7 +862,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1064 928 1128 1008)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff9" (rect 3 68 24 80)(font "Arial" ))
+	(text "DFF9" (rect 3 68 24 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -1270,45 +910,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1240 864 1304 928)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux10" (rect 0 48 33 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1304 936 1352 968)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri10" (rect 3 21 24 33)(font "Arial" ))
+	(text "TRI10" (rect 3 21 24 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1339,7 +943,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1240 928 1304 1008)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff10" (rect 3 68 30 80)(font "Arial" ))
+	(text "DFF10" (rect 3 68 30 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -1387,45 +991,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1416 864 1480 928)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux11" (rect 0 48 33 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1480 936 1528 968)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri11" (rect 3 21 24 33)(font "Arial" ))
+	(text "TRI11" (rect 3 21 24 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1456,7 +1024,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1416 928 1480 1008)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff11" (rect 3 68 30 80)(font "Arial" ))
+	(text "DFF11" (rect 3 68 30 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -1504,45 +1072,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 888 1104 952 1168)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux12" (rect 0 48 33 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 952 1176 1000 1208)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri12" (rect 3 21 24 33)(font "Arial" ))
+	(text "TRI12" (rect 3 21 24 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1573,7 +1105,7 @@ applicable agreement for further details.
 (symbol
 	(rect 888 1168 952 1248)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff12" (rect 3 68 30 80)(font "Arial" ))
+	(text "DFF12" (rect 3 68 30 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -1621,45 +1153,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1064 1104 1128 1168)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux13" (rect 0 48 33 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1128 1176 1176 1208)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri13" (rect 3 21 24 33)(font "Arial" ))
+	(text "TRI13" (rect 3 21 24 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1690,7 +1186,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1064 1168 1128 1248)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff13" (rect 3 68 30 80)(font "Arial" ))
+	(text "DFF13" (rect 3 68 30 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -1738,45 +1234,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1240 1104 1304 1168)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux14" (rect 0 48 33 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1304 1176 1352 1208)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri14" (rect 3 21 24 33)(font "Arial" ))
+	(text "TRI14" (rect 3 21 24 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1807,7 +1267,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1240 1168 1304 1248)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff14" (rect 3 68 30 80)(font "Arial" ))
+	(text "DFF14" (rect 3 68 30 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -1855,45 +1315,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1416 1104 1480 1168)
-	(text "Mux_2to1" (rect 1 0 56 14)(font "Arial" (font_size 8)))
-	(text "mux15" (rect 0 48 33 60)(font "Arial" ))
-	(port
-		(pt 32 0)
-		(input)
-		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "S" (rect 24 16 38 24)(font "Arial" (font_size 8))(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 64 24)
-		(input)
-		(text "D0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D0" (rect 32 16 47 30)(font "Arial" (font_size 8)))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(port
-		(pt 64 40)
-		(input)
-		(text "D1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "D1" (rect 32 32 47 46)(font "Arial" (font_size 8)))
-		(line (pt 48 40)(pt 64 40))
-	)
-	(port
-		(pt 0 32)
-		(output)
-		(text "O" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "O" (rect 16 24 25 38)(font "Arial" (font_size 8)))
-		(line (pt 16 32)(pt 0 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 48 48))
-	)
-)
-(symbol
 	(rect 1480 1176 1528 1208)
 	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
-	(text "tri15" (rect 3 21 24 33)(font "Arial" ))
+	(text "TRI15" (rect 3 21 24 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1924,7 +1348,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1416 1168 1480 1248)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "dff15" (rect 3 68 30 80)(font "Arial" ))
+	(text "DFF15" (rect 3 68 30 80)(font "Arial" ))
 	(port
 		(pt 32 80)
 		(input)
@@ -1970,6 +1394,598 @@ applicable agreement for further details.
 		(circle (rect 28 4 36 12))
 		(circle (rect 28 68 36 76))
 	)
+)
+(symbol
+	(rect 888 384 952 448)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux0" (rect 47 48 72 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1064 384 1128 448)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux1" (rect 47 48 72 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1240 384 1304 448)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux2" (rect 47 48 72 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1416 384 1480 448)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux3" (rect 47 48 72 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 888 624 952 688)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux4" (rect 47 48 72 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1064 624 1128 688)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux5" (rect 47 48 72 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1240 624 1304 688)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux6" (rect 47 48 72 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1416 624 1480 688)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux7" (rect 47 48 72 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 888 864 952 928)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux8" (rect 47 48 72 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1064 864 1128 928)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux9" (rect 47 48 72 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1240 864 1304 928)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux10" (rect 47 48 78 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1416 864 1480 928)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux11" (rect 47 48 78 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 888 1104 952 1168)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux12" (rect 47 48 78 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1064 1104 1128 1168)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux13" (rect 47 48 78 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1240 1104 1304 1168)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux14" (rect 47 48 78 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
+)
+(symbol
+	(rect 1416 1104 1480 1168)
+	(text "Mux2to1_1" (rect 6 0 59 12)(font "Arial" ))
+	(text "Mux15" (rect 47 48 78 60)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(input)
+		(text "data0" (rect 0 0 27 12)(font "Arial" ))
+		(text "data0" (rect 21 16 48 28)(font "Arial" ))
+		(line (pt 64 24)(pt 48 24))
+	)
+	(port
+		(pt 64 40)
+		(input)
+		(text "data1" (rect 0 0 27 12)(font "Arial" ))
+		(text "data1" (rect 21 32 48 44)(font "Arial" ))
+		(line (pt 64 40)(pt 48 40))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 28 16 40 30)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "result" (rect 0 0 27 12)(font "Arial" ))
+		(text "result" (rect 16 24 43 36)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 48 48))
+	)
+	(flipy)
 )
 (connector
 	(pt 920 304)
@@ -2101,11 +2117,6 @@ applicable agreement for further details.
 	(pt 968 648)
 )
 (connector
-	(text "I[0]" (rect 954 648 970 660)(font "Arial" ))
-	(pt 952 664)
-	(pt 984 664)
-)
-(connector
 	(pt 976 696)
 	(pt 1000 696)
 )
@@ -2154,18 +2165,6 @@ applicable agreement for further details.
 	(pt 808 1040)
 )
 (connector
-	(pt 920 784)
-	(pt 920 864)
-)
-(connector
-	(pt 968 888)
-	(pt 952 888)
-)
-(connector
-	(pt 984 832)
-	(pt 984 904)
-)
-(connector
 	(pt 872 968)
 	(pt 888 968)
 )
@@ -2174,21 +2173,8 @@ applicable agreement for further details.
 	(pt 872 968)
 )
 (connector
-	(pt 888 896)
-	(pt 888 952)
-)
-(connector
 	(pt 968 928)
 	(pt 952 928)
-)
-(connector
-	(pt 968 928)
-	(pt 968 888)
-)
-(connector
-	(text "I[0]" (rect 954 888 970 900)(font "Arial" ))
-	(pt 952 904)
-	(pt 984 904)
 )
 (connector
 	(pt 952 928)
@@ -2243,11 +2229,6 @@ applicable agreement for further details.
 	(pt 968 1128)
 )
 (connector
-	(text "I[0]" (rect 954 1128 970 1140)(font "Arial" ))
-	(pt 952 1144)
-	(pt 984 1144)
-)
-(connector
 	(pt 976 1176)
 	(pt 1000 1176)
 )
@@ -2278,11 +2259,6 @@ applicable agreement for further details.
 (connector
 	(pt 1144 448)
 	(pt 1144 408)
-)
-(connector
-	(text "I[0]" (rect 1130 408 1146 420)(font "Arial" ))
-	(pt 1128 424)
-	(pt 1160 424)
 )
 (connector
 	(pt 1128 448)
@@ -2358,11 +2334,6 @@ applicable agreement for further details.
 (connector
 	(pt 1320 448)
 	(pt 1320 408)
-)
-(connector
-	(text "I[0]" (rect 1306 408 1322 420)(font "Arial" ))
-	(pt 1304 424)
-	(pt 1336 424)
 )
 (connector
 	(pt 1304 448)
@@ -2486,11 +2457,6 @@ applicable agreement for further details.
 	(pt 1496 408)
 )
 (connector
-	(text "I[0]" (rect 1482 408 1498 420)(font "Arial" ))
-	(pt 1480 424)
-	(pt 1512 424)
-)
-(connector
 	(pt 1504 456)
 	(pt 1528 456)
 )
@@ -2559,11 +2525,6 @@ applicable agreement for further details.
 	(pt 1144 648)
 )
 (connector
-	(text "I[0]" (rect 1130 648 1146 660)(font "Arial" ))
-	(pt 1128 664)
-	(pt 1160 664)
-)
-(connector
 	(pt 1152 696)
 	(pt 1176 696)
 )
@@ -2625,11 +2586,6 @@ applicable agreement for further details.
 	(pt 1320 648)
 )
 (connector
-	(text "I[0]" (rect 1306 648 1322 660)(font "Arial" ))
-	(pt 1304 664)
-	(pt 1336 664)
-)
-(connector
 	(pt 1328 696)
 	(pt 1352 696)
 )
@@ -2685,11 +2641,6 @@ applicable agreement for further details.
 (connector
 	(pt 1480 648)
 	(pt 1496 648)
-)
-(connector
-	(text "I[0]" (rect 1482 648 1498 660)(font "Arial" ))
-	(pt 1480 664)
-	(pt 1512 664)
 )
 (connector
 	(pt 1504 696)
@@ -2818,11 +2769,6 @@ applicable agreement for further details.
 	(pt 1144 888)
 )
 (connector
-	(text "I[0]" (rect 1130 888 1146 900)(font "Arial" ))
-	(pt 1128 904)
-	(pt 1160 904)
-)
-(connector
 	(pt 1128 928)
 	(pt 1128 952)
 )
@@ -2843,17 +2789,8 @@ applicable agreement for further details.
 	(pt 872 816)
 )
 (connector
-	(pt 840 832)
-	(pt 984 832)
-	(bus)
-)
-(connector
 	(pt 808 800)
 	(pt 1000 800)
-)
-(connector
-	(pt 792 784)
-	(pt 920 784)
 )
 (connector
 	(pt 1048 968)
@@ -2884,11 +2821,6 @@ applicable agreement for further details.
 	(pt 1320 888)
 )
 (connector
-	(text "I[0]" (rect 1306 888 1322 900)(font "Arial" ))
-	(pt 1304 904)
-	(pt 1336 904)
-)
-(connector
 	(pt 1304 928)
 	(pt 1304 952)
 )
@@ -2905,21 +2837,12 @@ applicable agreement for further details.
 	(pt 1224 968)
 )
 (connector
-	(pt 920 784)
-	(pt 1096 784)
-)
-(connector
 	(pt 1000 800)
 	(pt 1176 800)
 )
 (connector
 	(pt 872 816)
 	(pt 1048 816)
-)
-(connector
-	(pt 984 832)
-	(pt 1160 832)
-	(bus)
 )
 (connector
 	(pt 1224 968)
@@ -2948,11 +2871,6 @@ applicable agreement for further details.
 (connector
 	(pt 1496 928)
 	(pt 1496 888)
-)
-(connector
-	(text "I[0]" (rect 1482 888 1498 900)(font "Arial" ))
-	(pt 1480 904)
-	(pt 1512 904)
 )
 (connector
 	(pt 1480 928)
@@ -3097,11 +3015,6 @@ applicable agreement for further details.
 	(pt 1144 1128)
 )
 (connector
-	(text "I[0]" (rect 1130 1128 1146 1140)(font "Arial" ))
-	(pt 1128 1144)
-	(pt 1160 1144)
-)
-(connector
 	(pt 1152 1176)
 	(pt 1176 1176)
 )
@@ -3167,11 +3080,6 @@ applicable agreement for further details.
 	(pt 1320 1128)
 )
 (connector
-	(text "I[0]" (rect 1306 1128 1322 1140)(font "Arial" ))
-	(pt 1304 1144)
-	(pt 1336 1144)
-)
-(connector
 	(pt 1328 1176)
 	(pt 1352 1176)
 )
@@ -3227,11 +3135,6 @@ applicable agreement for further details.
 (connector
 	(pt 1480 1128)
 	(pt 1496 1128)
-)
-(connector
-	(text "I[0]" (rect 1482 1128 1498 1140)(font "Arial" ))
-	(pt 1480 1144)
-	(pt 1512 1144)
 )
 (connector
 	(pt 1504 1176)
@@ -3335,6 +3238,119 @@ applicable agreement for further details.
 	(pt 1208 1088)
 	(bus)
 )
+(connector
+	(text "I[1]" (rect 1130 408 1146 420)(font "Arial" ))
+	(pt 1128 424)
+	(pt 1160 424)
+)
+(connector
+	(text "I[2]" (rect 1306 408 1322 420)(font "Arial" ))
+	(pt 1304 424)
+	(pt 1336 424)
+)
+(connector
+	(text "I[3]" (rect 1482 408 1498 420)(font "Arial" ))
+	(pt 1480 424)
+	(pt 1512 424)
+)
+(connector
+	(text "I[4]" (rect 954 648 970 660)(font "Arial" ))
+	(pt 952 664)
+	(pt 984 664)
+)
+(connector
+	(text "I[5]" (rect 1130 648 1146 660)(font "Arial" ))
+	(pt 1128 664)
+	(pt 1160 664)
+)
+(connector
+	(text "I[6]" (rect 1306 648 1322 660)(font "Arial" ))
+	(pt 1304 664)
+	(pt 1336 664)
+)
+(connector
+	(text "I[7]" (rect 1482 648 1498 660)(font "Arial" ))
+	(pt 1480 664)
+	(pt 1512 664)
+)
+(connector
+	(pt 920 784)
+	(pt 920 864)
+)
+(connector
+	(pt 984 832)
+	(pt 984 904)
+)
+(connector
+	(pt 888 952)
+	(pt 888 896)
+)
+(connector
+	(pt 968 928)
+	(pt 968 888)
+)
+(connector
+	(pt 968 888)
+	(pt 952 888)
+)
+(connector
+	(text "I[8]" (rect 954 888 970 900)(font "Arial" ))
+	(pt 984 904)
+	(pt 952 904)
+)
+(connector
+	(pt 792 784)
+	(pt 920 784)
+)
+(connector
+	(pt 920 784)
+	(pt 1096 784)
+)
+(connector
+	(pt 840 832)
+	(pt 984 832)
+	(bus)
+)
+(connector
+	(pt 984 832)
+	(pt 1160 832)
+	(bus)
+)
+(connector
+	(text "I[9]" (rect 1130 888 1146 900)(font "Arial" ))
+	(pt 1128 904)
+	(pt 1160 904)
+)
+(connector
+	(text "I[10]" (rect 1306 888 1328 900)(font "Arial" ))
+	(pt 1304 904)
+	(pt 1336 904)
+)
+(connector
+	(text "I[11]" (rect 1482 888 1504 900)(font "Arial" ))
+	(pt 1480 904)
+	(pt 1512 904)
+)
+(connector
+	(text "I[12]" (rect 954 1128 976 1140)(font "Arial" ))
+	(pt 952 1144)
+	(pt 984 1144)
+)
+(connector
+	(text "I[13]" (rect 1130 1128 1152 1140)(font "Arial" ))
+	(pt 1128 1144)
+	(pt 1160 1144)
+)
+(connector
+	(text "I[14]" (rect 1306 1128 1328 1140)(font "Arial" ))
+	(pt 1304 1144)
+	(pt 1336 1144)
+)
+(connector
+	(text "I[15]" (rect 1482 1128 1504 1140)(font "Arial" ))
+	(pt 1480 1144)
+	(pt 1512 1144)
+)
 (junction (pt 872 336))
 (junction (pt 792 304))
 (junction (pt 824 336))
@@ -3361,7 +3377,6 @@ applicable agreement for further details.
 (junction (pt 872 816))
 (junction (pt 984 832))
 (junction (pt 1000 800))
-(junction (pt 920 784))
 (junction (pt 872 1056))
 (junction (pt 984 1072))
 (junction (pt 1000 1040))
@@ -3410,3 +3425,4 @@ applicable agreement for further details.
 (junction (pt 1384 1088))
 (junction (pt 1208 1088))
 (junction (pt 1032 1088))
+(junction (pt 920 784))

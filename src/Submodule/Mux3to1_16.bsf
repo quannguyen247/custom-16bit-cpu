@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 64 64 256 208)
-	(text "Mux4to1_16" (rect 5 0 64 12)(font "Arial" ))
-	(text "inst" (rect 8 128 25 140)(font "Arial" ))
+	(rect 64 64 256 176)
+	(text "Mux3to1_16" (rect 5 0 64 12)(font "Arial" ))
+	(text "inst" (rect 8 96 25 108)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -45,13 +45,6 @@ applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
-		(pt 0 80)
-		(input)
-		(text "data3x[15..0]" (rect 0 0 64 12)(font "Arial" ))
-		(text "data3x[15..0]" (rect 21 75 85 87)(font "Arial" ))
-		(line (pt 0 80)(pt 16 80)(line_width 3))
-	)
-	(port
 		(pt 96 0)
 		(input)
 		(text "sel[1..0]" (rect 0 0 40 12)(font "Arial" ))
@@ -66,6 +59,6 @@ applicable agreement for further details.
 		(line (pt 192 32)(pt 176 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 176 128))
+		(rectangle (rect 16 16 176 96))
 	)
 )

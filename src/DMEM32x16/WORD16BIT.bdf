@@ -1821,7 +1821,7 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "O[15..0]" (rect 1466 240 1506 252)(font "Arial" ))
+	(text "O[15..0]" (rect 1418 232 1458 244)(font "Arial" ))
 	(pt 1480 256)
 	(pt 1440 256)
 	(bus)

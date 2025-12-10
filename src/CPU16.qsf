@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE EP2C35F672C6
-set_global_assignment -name TOP_LEVEL_ENTITY CPUTopDesign_datt
+set_global_assignment -name TOP_LEVEL_ENTITY ALUControl
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:05:12  DECEMBER 02, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -59,40 +59,44 @@ set_global_assignment -name POWER_DEFAULT_INPUT_IO_TOGGLE_RATE 12.5%
 set_global_assignment -name POWER_USE_PVA OFF
 set_global_assignment -name POWER_USE_INPUT_FILES OFF
 set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/DMEM32x16/Waveform_DMEM32x16.vwf"
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/ALU/Waveform_ALU.vwf"
-set_global_assignment -name BDF_FILE CPUTopDesign_datt_tested.bdf
-set_global_assignment -name BDF_FILE CPUTopDesign_datt.bdf
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/ALU/WaveformALU.vwf"
+set_global_assignment -name VERILOG_FILE ALU/Div16/Div16.v
+set_global_assignment -name BDF_FILE CPUTopDesign_tb.bdf
+set_global_assignment -name VERILOG_FILE Submodule/Mux3to1_16.v
+set_global_assignment -name VERILOG_FILE Submodule/Mux2to1_4.v
+set_global_assignment -name VERILOG_FILE Submodule/Mux3to1_3.v
+set_global_assignment -name BDF_FILE ALU/Mult16/Mult4.bdf
+set_global_assignment -name BDF_FILE Submodule/Decoder5to32_EN.bdf
+set_global_assignment -name BDF_FILE Submodule/Decoder4to16_EN.bdf
+set_global_assignment -name BDF_FILE Submodule/Decoder3to8_EN.bdf
+set_global_assignment -name BDF_FILE Submodule/Decoder2to4_EN.bdf
+set_global_assignment -name VERILOG_FILE Submodule/Mux16to1_16.v
+set_global_assignment -name BDF_FILE ALU/ALU3.bdf
+set_global_assignment -name BDF_FILE ALU/ALU2.bdf
+set_global_assignment -name BDF_FILE ALU/ALU1.bdf
+set_global_assignment -name VERILOG_FILE Submodule/Mux2to1_16.v
+set_global_assignment -name VERILOG_FILE Submodule/Mux2to1_1.v
+set_global_assignment -name VERILOG_FILE Submodule/Mux4to1_16.v
+set_global_assignment -name BDF_FILE ALU/Extend16bit.bdf
+set_global_assignment -name BDF_FILE ALU/Abs.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE WaveformCPU.vwf
 set_global_assignment -name BDF_FILE Controller/ControlUnit.bdf
-set_global_assignment -name BDF_FILE Controller/ALUop.bdf
 set_global_assignment -name BDF_FILE Controller/ALUControl.bdf
 set_global_assignment -name BDF_FILE DMEM32x16/DMEM32x16.bdf
 set_global_assignment -name BDF_FILE DMEM32x16/WORD16BIT.bdf
-set_global_assignment -name BDF_FILE DMEM32x16/Decoder532EN.bdf
-set_global_assignment -name BDF_FILE DMEM32x16/Decoder416EN.bdf
-set_global_assignment -name BDF_FILE DMEM32x16/Decoder38EN.bdf
-set_global_assignment -name BDF_FILE DMEM32x16/Decoder24EN.bdf
 set_global_assignment -name VERILOG_FILE IMEM64x16/IMEM64x16.v
 set_global_assignment -name BDF_FILE Submodule/DAD.bdf
 set_global_assignment -name BDF_FILE PC/PC.bdf
 set_global_assignment -name BDF_FILE Submodule/IOController.bdf
-set_global_assignment -name VERILOG_FILE ALU/mult16.v
-set_global_assignment -name QIP_FILE ALU/mult16.qip
-set_global_assignment -name VERILOG_FILE ALU/div16.v
-set_global_assignment -name QIP_FILE ALU/div16.qip
 set_global_assignment -name BDF_FILE SignExt/SignExt10.bdf
 set_global_assignment -name BDF_FILE SignExt/SignExt7.bdf
 set_global_assignment -name BDF_FILE ALU/srrrr.bdf
 set_global_assignment -name BDF_FILE ALU/sllll.bdf
 set_global_assignment -name BDF_FILE ALU/shfr.bdf
 set_global_assignment -name BDF_FILE ALU/shfl.bdf
-set_global_assignment -name BDF_FILE ALU/Not_ALU3.bdf
-set_global_assignment -name BDF_FILE ALU/Not_ALU2.bdf
-set_global_assignment -name BDF_FILE ALU/Not_ALU1.bdf
-set_global_assignment -name BDF_FILE ALU/Mux16_16bit.bdf
-set_global_assignment -name BDF_FILE ALU/Mux4_16bit.bdf
-set_global_assignment -name BDF_FILE ALU/Mux2_16bit.bdf
-set_global_assignment -name BDF_FILE ALU/Mux2_1bit.bdf
 set_global_assignment -name BDF_FILE ALU/isZero.bdf
 set_global_assignment -name BDF_FILE ALU/Full_adder_16bit.bdf
 set_global_assignment -name BDF_FILE ALU/Full_adder_1bit.bdf
@@ -106,11 +110,16 @@ set_global_assignment -name BDF_FILE Submodule/Reg32.bdf
 set_global_assignment -name BDF_FILE Submodule/Reg16.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE PC/Waveform_PC.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ALU/Waveform_ALU.vwf
-set_global_assignment -name BDF_FILE Controller/Mux4_2to1.bdf
-set_global_assignment -name BDF_FILE Submodule/Mux_2to1.bdf
-set_global_assignment -name BSF_FILE Submodule/Mux_2to1.bsf
-set_global_assignment -name BDF_FILE Submodule/Mux3_2to1.bdf
 set_global_assignment -name SDC_FILE CPU16.sdc
+set_global_assignment -name BDF_FILE RF8x16/RFC16.bdf
+set_global_assignment -name BDF_FILE ALU/Mult16/Mult16bit.bdf
+set_global_assignment -name BDF_FILE ALU/Mult16/Mult8.bdf
+set_global_assignment -name BDF_FILE ALU/Mult16/FA_24.bdf
+set_global_assignment -name BDF_FILE ALU/Mult16/FA_16.bdf
+set_global_assignment -name BDF_FILE ALU/Mult16/FA_12.bdf
+set_global_assignment -name BDF_FILE ALU/Mult16/FA_8.bdf
+set_global_assignment -name BDF_FILE ALU/Mult16/FA.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ALU/WaveformALU.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

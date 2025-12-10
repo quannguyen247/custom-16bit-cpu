@@ -3,3 +3,4 @@ src/output_files/
 src/incremental_db/
 src/simulation/
 src/CPU16.qws
+greybox_tmp/

@@ -1252,8 +1252,8 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 152 176 304 272)
-	(text "Decoder532EN" (rect 5 0 89 14)(font "Arial" (font_size 8)))
+	(rect 152 184 304 280)
+	(text "Decoder5to32_EN" (rect 5 0 107 14)(font "Arial" (font_size 8)))
 	(text "inst32" (rect 8 80 37 92)(font "Arial" ))
 	(port
 		(pt 0 32)
@@ -1280,15 +1280,38 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 136 80))
 	)
 )
-(connector
-	(text "RE" (rect 224 80 239 92)(font "Arial" ))
-	(pt 216 96)
-	(pt 296 96)
-)
-(connector
-	(text "WE" (rect 224 96 241 108)(font "Arial" ))
-	(pt 216 112)
-	(pt 296 112)
+(symbol
+	(rect 304 80 368 128)
+	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
+	(text "inst33" (rect 3 37 32 49)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 15 32))
+	)
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 15 16))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(line (pt 48 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 14 36)(pt 25 36))
+		(line (pt 14 13)(pt 25 13))
+		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
+		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
+		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
+	)
 )
 (connector
 	(text "D[15..0]" (rect 234 112 274 124)(font "Arial" ))
@@ -1995,37 +2018,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 304 144)
-	(pt 304 168)
-	(bus)
-)
-(connector
-	(pt 120 168)
-	(pt 120 208)
-	(bus)
-)
-(connector
-	(pt 152 208)
-	(pt 120 208)
-	(bus)
-)
-(connector
-	(pt 304 168)
-	(pt 120 168)
-	(bus)
-)
-(connector
-	(text "RE" (rect 130 208 145 220)(font "Arial" ))
-	(pt 152 224)
-	(pt 120 224)
-)
-(connector
-	(text "CS[31..0]" (rect 314 192 361 204)(font "Arial" ))
-	(pt 304 208)
-	(pt 344 208)
-	(bus)
-)
-(connector
 	(text "CS[0]" (rect 421 160 449 172)(font "Arial" ))
 	(pt 456 176)
 	(pt 416 176)
@@ -2184,6 +2176,62 @@ applicable agreement for further details.
 	(text "CS[4]" (rect 426 640 454 652)(font "Arial" ))
 	(pt 456 656)
 	(pt 416 656)
+)
+(connector
+	(pt 304 144)
+	(pt 304 168)
+	(bus)
+)
+(connector
+	(text "CS[31..0]" (rect 314 200 361 212)(font "Arial" ))
+	(pt 304 216)
+	(pt 344 216)
+	(bus)
+)
+(connector
+	(pt 304 168)
+	(pt 136 168)
+	(bus)
+)
+(connector
+	(pt 152 216)
+	(pt 136 216)
+	(bus)
+)
+(connector
+	(pt 136 168)
+	(pt 136 216)
+	(bus)
+)
+(connector
+	(pt 384 296)
+	(pt 136 296)
+)
+(connector
+	(pt 136 296)
+	(pt 136 232)
+)
+(connector
+	(pt 152 232)
+	(pt 136 232)
+)
+(connector
+	(pt 384 296)
+	(pt 384 104)
+)
+(connector
+	(text "RE" (rect 232 80 247 92)(font "Arial" ))
+	(pt 216 96)
+	(pt 304 96)
+)
+(connector
+	(text "WE" (rect 232 96 249 108)(font "Arial" ))
+	(pt 216 112)
+	(pt 304 112)
+)
+(connector
+	(pt 368 104)
+	(pt 384 104)
 )
 (junction (pt 1384 1072))
 (junction (pt 1384 280))

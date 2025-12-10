@@ -7,4 +7,5 @@
 { "" "" "" "Net \"my_mem.waddr_a\" at IMEM64x16.v(10) has no driver or initial value, using a default initial value '0'" {  } {  } 0 10030 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "Net \"my_mem.we_a\" at IMEM64x16.v(10) has no driver or initial value, using a default initial value '0'" {  } {  } 0 10030 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "Tri-state node(s) do not directly drive top-level pin(s)" {  } {  } 0 13046 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Entity \"Mult4\" obtained from \"ALU/Mult16/Mult4.bdf\" instead of from Quartus II megafunction library" {  } {  } 0 12090 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "*" {  } {  } 0 20028 "" 0 0 "Quartus II" 0 -1 0 ""}

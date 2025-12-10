@@ -1124,16 +1124,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 792 192)
-	(pt 856 192)
-	(bus)
-)
-(connector
-	(pt 816 328)
-	(pt 856 328)
-	(bus)
-)
-(connector
 	(pt 776 328)
 	(pt 776 312)
 )
@@ -1160,11 +1150,6 @@ applicable agreement for further details.
 (connector
 	(pt 584 520)
 	(pt 432 520)
-)
-(connector
-	(pt 856 472)
-	(pt 792 472)
-	(bus)
 )
 (connector
 	(pt 792 472)
@@ -1215,11 +1200,6 @@ applicable agreement for further details.
 (connector
 	(pt 584 704)
 	(pt 512 704)
-)
-(connector
-	(pt 856 1016)
-	(pt 800 1016)
-	(bus)
 )
 (connector
 	(pt 432 824)
@@ -1561,7 +1541,7 @@ applicable agreement for further details.
 	(pt 400 904)
 )
 (connector
-	(text "RegDst[0]" (rect 784 232 834 244)(font "Arial" ))
+	(text "RegDst[0]" (rect 792 248 842 260)(font "Arial" ))
 	(pt 744 248)
 	(pt 792 248)
 )
@@ -1570,7 +1550,7 @@ applicable agreement for further details.
 	(pt 776 192)
 )
 (connector
-	(text "RegDst[1]" (rect 675 176 725 188)(font "Arial" ))
+	(text "RegDst[1]" (rect 755 168 805 180)(font "Arial" ))
 	(pt 632 192)
 	(pt 776 192)
 )
@@ -1672,6 +1652,30 @@ applicable agreement for further details.
 	(text "ALUsrc[0]" (rect 758 352 807 364)(font "Arial" ))
 	(pt 744 368)
 	(pt 816 368)
+)
+(connector
+	(text "ALUop[1..0]" (rect 810 1032 869 1044)(font "Arial" ))
+	(pt 856 1016)
+	(pt 800 1016)
+	(bus)
+)
+(connector
+	(text "MemtoReg[1..0]" (rect 800 488 879 500)(font "Arial" ))
+	(pt 856 472)
+	(pt 792 472)
+	(bus)
+)
+(connector
+	(text "ALUsrc[1..0]" (rect 824 344 886 356)(font "Arial" ))
+	(pt 816 328)
+	(pt 856 328)
+	(bus)
+)
+(connector
+	(text "RegDst[1..0]" (rect 802 208 865 220)(font "Arial" ))
+	(pt 792 192)
+	(pt 856 192)
+	(bus)
 )
 (junction (pt 368 80))
 (junction (pt 368 120))

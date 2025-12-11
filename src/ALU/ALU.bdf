@@ -2228,21 +2228,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1112 912)
-	(pt 1112 536)
-	(bus)
-)
-(connector
-	(pt 1128 792)
-	(pt 1128 928)
-	(bus)
-)
-(connector
-	(pt 1192 792)
-	(pt 1128 792)
-	(bus)
-)
-(connector
 	(pt 656 880)
 	(pt 656 912)
 	(bus)
@@ -2255,16 +2240,6 @@ applicable agreement for further details.
 (connector
 	(pt 672 928)
 	(pt 520 928)
-	(bus)
-)
-(connector
-	(pt 824 912)
-	(pt 1112 912)
-	(bus)
-)
-(connector
-	(pt 824 928)
-	(pt 1128 928)
 	(bus)
 )
 (connector
@@ -2290,6 +2265,31 @@ applicable agreement for further details.
 (connector
 	(pt 520 528)
 	(pt 672 528)
+	(bus)
+)
+(connector
+	(pt 1112 928)
+	(pt 1112 536)
+	(bus)
+)
+(connector
+	(pt 1128 912)
+	(pt 1128 792)
+	(bus)
+)
+(connector
+	(pt 1192 792)
+	(pt 1128 792)
+	(bus)
+)
+(connector
+	(pt 824 912)
+	(pt 1128 912)
+	(bus)
+)
+(connector
+	(pt 824 928)
+	(pt 1112 928)
 	(bus)
 )
 (junction (pt 272 288))

@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE EP2C35F672C6
-set_global_assignment -name TOP_LEVEL_ENTITY ALUControl
+set_global_assignment -name TOP_LEVEL_ENTITY ALU
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:05:12  DECEMBER 02, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -62,7 +62,9 @@ set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
 set_global_assignment -name USE_CONFIGURATION_DEVICE ON
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/ALU/WaveformALU.vwf"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VERILOG_FILE ALU/Div16/Div16.v
 set_global_assignment -name BDF_FILE CPUTopDesign_tb.bdf
 set_global_assignment -name VERILOG_FILE Submodule/Mux3to1_16.v
@@ -105,7 +107,6 @@ set_global_assignment -name BDF_FILE RF8x16/RFC.bdf
 set_global_assignment -name BDF_FILE RF8x16/RF_8X16.bdf
 set_global_assignment -name BDF_FILE RF8x16/DEC_3_TO_8.bdf
 set_global_assignment -name BDF_FILE CPUTopDesign.bdf
-set_global_assignment -name BDF_FILE ALU/MDU.bdf
 set_global_assignment -name BDF_FILE Submodule/Reg32.bdf
 set_global_assignment -name BDF_FILE Submodule/Reg16.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE PC/Waveform_PC.vwf
@@ -120,7 +121,5 @@ set_global_assignment -name BDF_FILE ALU/Mult16/FA_12.bdf
 set_global_assignment -name BDF_FILE ALU/Mult16/FA_8.bdf
 set_global_assignment -name BDF_FILE ALU/Mult16/FA.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ALU/WaveformALU.vwf
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan/custom-16bit-cpu/src/ALU/WaveformALU.vwf"

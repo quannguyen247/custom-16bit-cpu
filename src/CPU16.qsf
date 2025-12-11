@@ -66,7 +66,6 @@ set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/GitProjectCaNhan
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name BDF_FILE Pipeline/Pipeline.bdf
 set_global_assignment -name BDF_FILE Pipeline/Buffer/Reg1x16.bdf
 set_global_assignment -name BDF_FILE Pipeline/Buffer/Reg1x5.bdf
@@ -136,3 +135,4 @@ set_global_assignment -name BDF_FILE ALU/Mult16/FA_12.bdf
 set_global_assignment -name BDF_FILE ALU/Mult16/FA_8.bdf
 set_global_assignment -name BDF_FILE ALU/Mult16/FA.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ALU/WaveformALU.vwf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

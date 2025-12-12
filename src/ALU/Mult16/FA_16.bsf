@@ -24,11 +24,11 @@ applicable agreement for further details.
 	(text "FA_16" (rect 0 0 37 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 0 48 17 60)(font "Arial" ))
 	(port
-		(pt 72 64)
+		(pt 72 0)
 		(input)
 		(text "Cin" (rect 0 0 17 14)(font "Arial" (font_size 8)))
-		(text "Cin" (rect 64 32 78 49)(font "Arial" (font_size 8))(vertical))
-		(line (pt 72 48)(pt 72 64))
+		(text "Cin" (rect 64 24 78 41)(font "Arial" (font_size 8))(vertical))
+		(line (pt 72 0)(pt 72 16))
 	)
 	(port
 		(pt 0 24)

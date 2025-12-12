@@ -38,11 +38,11 @@ applicable agreement for further details.
 		(line (pt 0 40)(pt 16 40)(line_width 3))
 	)
 	(port
-		(pt 72 64)
+		(pt 72 0)
 		(input)
 		(text "Cin" (rect 0 0 17 14)(font "Arial" (font_size 8)))
-		(text "Cin" (rect 64 32 78 49)(font "Arial" (font_size 8))(vertical))
-		(line (pt 72 64)(pt 72 48))
+		(text "Cin" (rect 64 24 78 41)(font "Arial" (font_size 8))(vertical))
+		(line (pt 72 16)(pt 72 0))
 	)
 	(port
 		(pt 144 40)

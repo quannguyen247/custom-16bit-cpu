@@ -45,13 +45,6 @@ applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
-		(pt 0 88)
-		(input)
-		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "CLK" (rect 21 83 44 97)(font "Arial" (font_size 8)))
-		(line (pt 0 88)(pt 16 88))
-	)
-	(port
 		(pt 152 48)
 		(output)
 		(text "O[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))

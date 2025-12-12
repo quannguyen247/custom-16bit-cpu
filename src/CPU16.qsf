@@ -121,10 +121,6 @@ set_global_assignment -name BDF_FILE PC/PC.bdf
 set_global_assignment -name BDF_FILE Submodule/IOController.bdf
 set_global_assignment -name BDF_FILE SignExt/SignExt10.bdf
 set_global_assignment -name BDF_FILE SignExt/SignExt7.bdf
-set_global_assignment -name BDF_FILE ALU/srrrr.bdf
-set_global_assignment -name BDF_FILE ALU/sllll.bdf
-set_global_assignment -name BDF_FILE ALU/shfr.bdf
-set_global_assignment -name BDF_FILE ALU/shfl.bdf
 set_global_assignment -name BDF_FILE ALU/isZero.bdf
 set_global_assignment -name BDF_FILE ALU/Full_adder_16bit.bdf
 set_global_assignment -name BDF_FILE ALU/Full_adder_1bit.bdf

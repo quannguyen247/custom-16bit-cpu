@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect -16 176 152 192)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Sign" (rect 5 0 27 12)(font "Arial" ))
+	(text "Sign" (rect 5 0 26 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -111,7 +111,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 344 168 408 216)
+	(rect 368 168 432 216)
 	(text "XOR" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst" (rect 3 37 20 49)(font "Arial" ))
 	(port
@@ -145,27 +145,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 240 152 336 208)
-	(text "Extend16bit" (rect 16 8 82 22)(font "Arial" (font_size 8)))
-	(text "inst2" (rect 24 32 47 44)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "I" (rect 0 0 2 14)(font "Arial" (font_size 8)))
-		(text "I" (rect 8 32 10 46)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 96 32)
-		(output)
-		(text "O[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
-		(text "O[15..0]" (rect 48 32 92 46)(font "Arial" (font_size 8)))
-		(line (pt 96 32)(pt 80 32)(line_width 3))
-	)
-	(drawing
-	)
-)
-(symbol
 	(rect 480 208 512 240)
 	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
 	(text "inst3" (rect 3 21 26 33)(font "Arial" )(invisible))
@@ -182,6 +161,30 @@ applicable agreement for further details.
 		(line (pt 8 8)(pt 24 8))
 	)
 )
+(symbol
+	(rect 240 168 288 200)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "Extend16" (rect 3 21 49 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
 (connector
 	(pt 664 192)
 	(pt 744 192)
@@ -190,26 +193,6 @@ applicable agreement for further details.
 (connector
 	(pt 520 208)
 	(pt 496 208)
-	(bus)
-)
-(connector
-	(pt 344 200)
-	(pt 344 240)
-	(bus)
-)
-(connector
-	(pt 520 192)
-	(pt 408 192)
-	(bus)
-)
-(connector
-	(pt 152 240)
-	(pt 344 240)
-	(bus)
-)
-(connector
-	(pt 344 184)
-	(pt 336 184)
 	(bus)
 )
 (connector
@@ -227,5 +210,26 @@ applicable agreement for further details.
 (connector
 	(pt 216 184)
 	(pt 240 184)
+)
+(connector
+	(pt 368 240)
+	(pt 368 200)
+	(bus)
+)
+(connector
+	(pt 520 192)
+	(pt 432 192)
+	(bus)
+)
+(connector
+	(pt 152 240)
+	(pt 368 240)
+	(bus)
+)
+(connector
+	(text "Extend[15..0]" (rect 298 168 364 180)(font "Arial" ))
+	(pt 288 184)
+	(pt 368 184)
+	(bus)
 )
 (junction (pt 216 184))

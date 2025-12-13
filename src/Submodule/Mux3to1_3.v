@@ -100,7 +100,7 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL Mux3to1_3.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL Mux3to1_3.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL Mux3to1_3.cmp FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL Mux3to1_3.bsf FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL Mux3to1_3.bsf TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL Mux3to1_3_inst.v FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL Mux3to1_3_bb.v FALSE
 // Retrieval info: LIB_FILE: lpm

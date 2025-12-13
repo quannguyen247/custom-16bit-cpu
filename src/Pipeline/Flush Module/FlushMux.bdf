@@ -105,7 +105,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 536 240 680 320)
-	(text "lpm_mux1" (rect 37 0 107 16)(font "Arial" (font_size 10)))
+	(text "Mux2to1_2" (rect 34 0 109 16)(font "Arial" (font_size 10)))
 	(text "inst" (rect 8 64 25 76)(font "Arial" ))
 	(port
 		(pt 0 40)

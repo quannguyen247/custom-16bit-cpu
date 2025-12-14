@@ -1,0 +1,57 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+    (rect 64 64 200 128)
+    (text "PP_ROW_GEN" (rect 1 1 83 15)(font "Arial" (font_size 8)))
+    (text "inst" (rect 0 48 17 60)(font "Arial" ))
+    (port
+        (pt 0 24)
+        (input)
+        (text "CODE[2..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+        (text "CODE[2..0]" (rect 16 16 77 30)(font "Arial" (font_size 8)))
+        (line (pt 0 24)(pt 16 24)(line_width 3))
+    )
+    (port
+        (pt 0 40)
+        (input)
+        (text "I[15..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+        (text "I[15..0]" (rect 16 32 53 46)(font "Arial" (font_size 8)))
+        (line (pt 0 40)(pt 16 40)(line_width 3))
+    )
+    (port
+        (pt 136 24)
+        (output)
+        (text "NEGA" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+        (text "NEGA" (rect 79 16 113 30)(font "Arial" (font_size 8)))
+        (line (pt 136 24)(pt 120 24))
+    )
+    (port
+        (pt 136 40)
+        (output)
+        (text "PP[31..0]" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+        (text "PP[31..0]" (rect 64 32 113 46)(font "Arial" (font_size 8)))
+        (line (pt 136 40)(pt 120 40)(line_width 3))
+    )
+    (drawing
+        (rectangle (rect 16 16 120 48))
+    )
+)

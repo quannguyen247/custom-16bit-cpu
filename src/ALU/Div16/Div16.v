@@ -1,118 +1,262 @@
-    module Div16 (
-        input  wire        clk,        // Cần clock để đọc Block RAM (M4K)
-        input  wire [15:0] dividend,   // Số bị chia (A)
-        input  wire [15:0] divisor,    // Số chia (B)
-        output reg  [15:0] quotient,   // Thương (Q)
-        output reg  [15:0] remainder   // Dư (R)
-    );
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
 
-        // ============================================================
-        // PHẦN 1: LOGIC TẠO ĐỊA CHỈ (SMART MAPPING CHO EP2C35 - 4096)
-        // ============================================================
-        // Chiến thuật:
-        // - Vùng nhỏ (0 - 2047): Map trực tiếp (Exact).
-        // - Vùng lớn (>= 2048):  Map theo 11 bit cao nhất (divisor[15:5]).
-        // Điều này đảm bảo sai số luôn < 1 đơn vị trên toàn dải.
-        
-        wire [11:0] rom_addr;
-        wire       is_large; // Large bây giờ là >= 2048
-        
-        // Kiểm tra ngưỡng 2048 (Bit [15:11] có dữ liệu)
-        assign is_large = |divisor[15:11];
+// PROGRAM		"Quartus II 64-Bit"
+// VERSION		"Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+// CREATED		"Sun Dec 14 22:36:11 2025"
 
-        // Mux chọn địa chỉ:
-        // - Nếu >= 2048: Bit 11=1. Lấy divisor[15:5] (Giá trị từ 64 đến 2047).
-        // - Nếu < 2048:  Bit 11=0. Lấy divisor[10:0] (Giá trị từ 0 đến 2047).
-        // Lưu ý: Với số lớn, divisor[15:5] luôn >= 64, nên không bị trùng vùng thấp của bank 1.
-        assign rom_addr = is_large ? {1'b1, divisor[15:5]} : {1'b0, divisor[10:0]};
+module Div16(
+	CLK,
+	dividend,
+	divisor,
+	quotient,
+	remainder
+);
 
 
-        // ============================================================
-        // PHẦN 2: KHỐI RAM (ALTSYNCRAM) - SINGLE CYCLE MODE
-        // ============================================================
-        wire [31:0] inv_val; 
-        
-        // KHÔNG dùng thanh ghi đệm để đảm bảo kết quả ra ngay trong chu kỳ
-        // Fmax sẽ bị giới hạn bởi thời gian truy cập RAM + Nhân + Sửa lỗi
+input wire	CLK;
+input wire	[15:0] dividend;
+input wire	[15:0] divisor;
+output wire	[15:0] quotient;
+output wire	[15:0] remainder;
 
-        altsyncram #(
-            .clock_enable_input_a("BYPASS"),
-            .clock_enable_output_a("BYPASS"),
-            .init_file("lut.mif"),
-            .intended_device_family("Cyclone II"),
-            .lpm_hint("ENABLE_RUNTIME_MOD=NO"),
-            .lpm_type("altsyncram"),
-            .numwords_a(4096),
-            .operation_mode("ROM"),
-            .outdata_aclr_a("NONE"),
-            
-            // --- SINGLE CYCLE CONFIG ---
-            // Bắt buộc phải là UNREGISTERED để có dữ liệu ngay lập tức
-            // Nếu bật CLOCK0, dữ liệu sẽ bị trễ sang chu kỳ sau (Multi-cycle)
-            .outdata_reg_a("UNREGISTERED"), 
-            
-            .widthad_a(12),
-            .width_a(32),
-            .width_byteena_a(1)
-        ) rom_inst (
-            .address_a(rom_addr),
-            .clock0(clk),
-            .q_a(inv_val),
-            .aclr0(1'b0), .aclr1(1'b0), .address_b(1'b1), .addressstall_a(1'b0),
-            .addressstall_b(1'b0), .byteena_a(1'b1), .byteena_b(1'b1),
-            .clock1(1'b1), .clocken0(1'b1), .clocken1(1'b1), .clocken2(1'b1),
-            .clocken3(1'b1), .data_a({32{1'b1}}), .data_b(1'b1), .eccstatus(),
-            .q_b(), .rden_a(1'b1), .rden_b(1'b1), .wren_a(1'b0), .wren_b(1'b0)
-        );
+wire	BIT_0;
+wire	BIT_1;
+wire	cmp_sel;
+reg	[15:0] dividend_reg1;
+wire	[15:0] dividend_reg2;
+wire	[15:0] divisor_reg0;
+wire	[15:0] divisor_reg1;
+wire	[15:0] divisor_reg2;
+wire	[31:0] inv_val;
+wire	is_large;
+wire	[15:0] Q_EST;
+wire	[15:0] RMD1;
+wire	[15:0] RMD2;
+wire	[11:0] SYNTHESIZED_WIRE_0;
+wire	[15:0] SYNTHESIZED_WIRE_1;
+wire	[15:0] SYNTHESIZED_WIRE_2;
+wire	[15:0] SYNTHESIZED_WIRE_3;
+wire	[15:0] SYNTHESIZED_WIRE_14;
+wire	[15:0] SYNTHESIZED_WIRE_6;
+wire	[15:0] SYNTHESIZED_WIRE_7;
+wire	[15:0] SYNTHESIZED_WIRE_9;
+reg	[15:0] DFF_REG0;
+wire	[15:0] SYNTHESIZED_WIRE_10;
+reg	[15:0] DFF_inst21;
+reg	[15:0] DFF_inst4;
+wire	SYNTHESIZED_WIRE_11;
+wire	[31:16] SYNTHESIZED_WIRE_12;
+wire	[0:15] SYNTHESIZED_WIRE_13;
 
-        // ============================================================
-        // PHẦN 3: TÍNH TOÁN VÀ SỬA LỖI (CORRECTION)
-        // ============================================================
-        
-        wire [47:0] product_raw;
-        wire [15:0] q_est;
-        wire [31:0] check_mul;
-        wire [15:0] r_est;
-        
-        reg [15:0] q_corr1;
-        reg [15:0] r_corr1;
+assign	SYNTHESIZED_WIRE_13 = 0;
+wire	[11:0] GDFX_TEMP_SIGNAL_0;
+wire	[11:0] GDFX_TEMP_SIGNAL_1;
 
-        // Sử dụng trực tiếp input (Combinational path)
-        // A * (1/B)
-        assign product_raw = dividend * inv_val;
-        
-        assign q_est = product_raw[47:32];
 
-        // R = A - (Q * B)
-        assign check_mul = q_est * divisor;
-        assign r_est = dividend - check_mul[15:0];
+assign	GDFX_TEMP_SIGNAL_0 = {BIT_0,divisor[10:0]};
+assign	GDFX_TEMP_SIGNAL_1 = {BIT_1,divisor[15:5]};
 
-        // --- C. HIỆU CHỈNH (Comb Logic) ---
-        always @(*) begin
-            // Mặc định gán giá trị ước lượng
-            q_corr1 = q_est;
-            r_corr1 = r_est;
 
-            // Xử lý chia cho 0
-            if (divisor == 0) begin
-                quotient  = {16{1'b1}}; 
-                remainder = dividend;
-            end else begin
-                // Kiểm tra sai số lần 1
-                if (r_est >= divisor) begin
-                    q_corr1 = q_est + 16'd1;
-                    r_corr1 = r_est - divisor;
-                end
+rom_lut	b2v_inst(
+	.clock(CLK),
+	.address(SYNTHESIZED_WIRE_0),
+	.q(inv_val));
 
-                // Kiểm tra sai số lần 2
-                if (r_corr1 >= divisor) begin
-                    quotient  = q_corr1 + 16'd1;
-                    remainder = r_corr1 - divisor;
-                end else begin
-                    quotient  = q_corr1;
-                    remainder = r_corr1;
-                end
-            end
-        end
 
-    endmodule
+or5_0	b2v_inst1(
+	.IN1(divisor[15]),
+	.IN3(divisor[13]),
+	.IN2(divisor[14]),
+	.IN5(divisor[11]),
+	.IN4(divisor[12]),
+	.OUT(is_large));
+
+
+Mult16bit	b2v_inst10(
+	.A(Q_EST),
+	.B(divisor_reg2),
+	
+	.LO(SYNTHESIZED_WIRE_3));
+
+
+Full_adder_16bit	b2v_inst11(
+	.Cin(BIT_1),
+	.X(dividend_reg2),
+	.Y(SYNTHESIZED_WIRE_1),
+	
+	.S(SYNTHESIZED_WIRE_14));
+
+
+
+Full_adder_16bit	b2v_inst13(
+	.Cin(BIT_0),
+	.X(Q_EST),
+	.Y(SYNTHESIZED_WIRE_2),
+	
+	.S(SYNTHESIZED_WIRE_7));
+
+assign	SYNTHESIZED_WIRE_1 =  ~SYNTHESIZED_WIRE_3;
+
+
+cmp16	b2v_inst15(
+	.dataa(SYNTHESIZED_WIRE_14),
+	.datab(divisor_reg2),
+	.ageb(cmp_sel));
+
+
+Full_adder_16bit	b2v_inst16(
+	.Cin(BIT_1),
+	.X(SYNTHESIZED_WIRE_14),
+	.Y(SYNTHESIZED_WIRE_6),
+	
+	.S(SYNTHESIZED_WIRE_9));
+
+
+Constant1_16	b2v_inst17(
+	.O(SYNTHESIZED_WIRE_2));
+
+
+Mux2to1_16	b2v_inst18(
+	.sel(cmp_sel),
+	.data0x(Q_EST),
+	.data1x(SYNTHESIZED_WIRE_7),
+	.result(quotient));
+
+
+Mux2to1_16	b2v_inst19(
+	.sel(cmp_sel),
+	.data0x(SYNTHESIZED_WIRE_14),
+	.data1x(SYNTHESIZED_WIRE_9),
+	.result(remainder));
+
+
+assign	SYNTHESIZED_WIRE_6 =  ~divisor_reg2;
+
+
+always@(posedge CLK)
+begin
+	begin
+	DFF_inst21[15:0] <= inv_val[31:16];
+	end
+end
+
+
+always@(posedge CLK)
+begin
+	begin
+	dividend_reg1[15:0] <= DFF_REG0[15:0];
+	end
+end
+
+
+Reg1x16	b2v_inst24(
+	.CLK(CLK),
+	.I(SYNTHESIZED_WIRE_10),
+	.O(Q_EST));
+
+
+Reg1x16	b2v_inst25(
+	.CLK(CLK),
+	.I(divisor_reg1),
+	.O(divisor_reg2));
+
+
+Reg1x16	b2v_inst29(
+	.CLK(CLK),
+	.I(divisor),
+	.O(divisor_reg0));
+
+
+
+Reg1x16	b2v_inst30(
+	.CLK(CLK),
+	.I(dividend_reg1),
+	.O(dividend_reg2));
+
+
+Reg1x16	b2v_inst31(
+	.CLK(CLK),
+	.I(divisor_reg0),
+	.O(divisor_reg1));
+
+
+always@(posedge CLK)
+begin
+	begin
+	DFF_inst4[15:0] <= inv_val[15:0];
+	end
+end
+
+
+Mux2to1_12	b2v_inst5(
+	.sel(is_large),
+	.data0x(GDFX_TEMP_SIGNAL_0),
+	.data1x(GDFX_TEMP_SIGNAL_1),
+	.result(SYNTHESIZED_WIRE_0));
+
+
+Mult16bitU	b2v_inst6(
+	.A(dividend_reg1),
+	.B(DFF_inst21),
+	.HI(SYNTHESIZED_WIRE_12),
+	.LO(RMD1));
+
+
+Mult16bitU	b2v_inst7(
+	.A(dividend_reg1),
+	.B(DFF_inst4),
+	.HI(RMD2)
+	);
+
+
+Full_adder_16bit	b2v_inst8(
+	.Cin(BIT_0),
+	.X(RMD1),
+	.Y(RMD2),
+	.Cout(SYNTHESIZED_WIRE_11)
+	);
+
+
+Full_adder_16bit	b2v_inst9(
+	.Cin(SYNTHESIZED_WIRE_11),
+	.X(SYNTHESIZED_WIRE_12),
+	.Y(SYNTHESIZED_WIRE_13),
+	
+	.S(SYNTHESIZED_WIRE_10));
+
+
+always@(posedge CLK)
+begin
+	begin
+	DFF_REG0[15:0] <= dividend[15:0];
+	end
+end
+
+assign	BIT_0 = 0;
+assign	BIT_1 = 1;
+
+endmodule
+
+module or5_0(IN1,IN3,IN2,IN5,IN4,OUT);
+/* synthesis black_box */
+
+input IN1;
+input IN3;
+input IN2;
+input IN5;
+input IN4;
+output OUT;
+
+endmodule

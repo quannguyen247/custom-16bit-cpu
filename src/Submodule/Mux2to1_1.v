@@ -98,7 +98,7 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL Mux2to1_1.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL Mux2to1_1.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL Mux2to1_1.cmp FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL Mux2to1_1.bsf FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL Mux2to1_1.bsf TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL Mux2to1_1_inst.v FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL Mux2to1_1_bb.v FALSE
 // Retrieval info: LIB_FILE: lpm

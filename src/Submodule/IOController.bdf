@@ -21,9 +21,9 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 600 320 768 336)
+	(rect 600 288 768 304)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "R/W" (rect 5 0 27 12)(font "Arial" ))
+	(text "EN" (rect 5 0 20 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -37,9 +37,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 600 288 768 304)
+	(rect 600 320 768 336)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "EN" (rect 5 0 20 12)(font "Arial" ))
+	(text "RW" (rect 5 0 24 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))

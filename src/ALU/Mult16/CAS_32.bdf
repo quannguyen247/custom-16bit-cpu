@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 616 96 784 112)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A[31..0]" (rect 5 0 44 12)(font "Arial" ))
+	(text "A[31..0]" (rect 5 0 43 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 616 128 784 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B[31..0]" (rect 5 0 44 12)(font "Arial" ))
+	(text "B[31..0]" (rect 5 0 43 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1495,302 +1495,72 @@ applicable agreement for further details.
 	(pt 928 88)
 )
 (connector
-	(text "Cout[1]" (rect 978 256 1014 268)(font "Arial" ))
-	(pt 928 272)
-	(pt 1032 272)
-)
-(connector
-	(text "S[1]" (rect 978 216 998 228)(font "Arial" ))
-	(pt 968 232)
-	(pt 1048 232)
-)
-(connector
 	(pt 928 192)
 	(pt 928 184)
 )
 (connector
-	(text "IC[1]" (rect 850 168 874 180)(font "Arial" ))
+	(text "Cin[1]" (rect 850 168 879 180)(font "Arial" ))
 	(pt 800 184)
 	(pt 928 184)
-)
-(connector
-	(text "IC[1]" (rect 850 264 874 276)(font "Arial" ))
-	(pt 800 280)
-	(pt 928 280)
-)
-(connector
-	(text "Cout[1]" (rect 978 352 1014 364)(font "Arial" ))
-	(pt 928 368)
-	(pt 1032 368)
-)
-(connector
-	(text "S[1]" (rect 978 312 998 324)(font "Arial" ))
-	(pt 968 328)
-	(pt 1048 328)
 )
 (connector
 	(pt 928 288)
 	(pt 928 280)
 )
 (connector
-	(text "Cout[1]" (rect 978 448 1014 460)(font "Arial" ))
-	(pt 928 464)
-	(pt 1032 464)
-)
-(connector
-	(text "S[1]" (rect 978 408 998 420)(font "Arial" ))
-	(pt 968 424)
-	(pt 1048 424)
-)
-(connector
 	(pt 928 384)
 	(pt 928 376)
-)
-(connector
-	(text "IC[1]" (rect 850 360 874 372)(font "Arial" ))
-	(pt 800 376)
-	(pt 928 376)
-)
-(connector
-	(text "IC[1]" (rect 850 456 874 468)(font "Arial" ))
-	(pt 800 472)
-	(pt 928 472)
-)
-(connector
-	(text "Cout[1]" (rect 978 544 1014 556)(font "Arial" ))
-	(pt 928 560)
-	(pt 1032 560)
-)
-(connector
-	(text "S[1]" (rect 978 504 998 516)(font "Arial" ))
-	(pt 968 520)
-	(pt 1048 520)
 )
 (connector
 	(pt 928 480)
 	(pt 928 472)
 )
 (connector
-	(text "Cout[1]" (rect 978 640 1014 652)(font "Arial" ))
-	(pt 928 656)
-	(pt 1032 656)
-)
-(connector
-	(text "S[1]" (rect 978 600 998 612)(font "Arial" ))
-	(pt 968 616)
-	(pt 1048 616)
-)
-(connector
 	(pt 928 576)
 	(pt 928 568)
-)
-(connector
-	(text "IC[1]" (rect 850 552 874 564)(font "Arial" ))
-	(pt 800 568)
-	(pt 928 568)
-)
-(connector
-	(text "IC[1]" (rect 850 648 874 660)(font "Arial" ))
-	(pt 800 664)
-	(pt 928 664)
-)
-(connector
-	(text "Cout[1]" (rect 978 736 1014 748)(font "Arial" ))
-	(pt 928 752)
-	(pt 1032 752)
-)
-(connector
-	(text "S[1]" (rect 978 696 998 708)(font "Arial" ))
-	(pt 968 712)
-	(pt 1048 712)
 )
 (connector
 	(pt 928 672)
 	(pt 928 664)
 )
 (connector
-	(text "Cout[1]" (rect 978 832 1014 844)(font "Arial" ))
-	(pt 928 848)
-	(pt 1032 848)
-)
-(connector
-	(text "S[1]" (rect 978 792 998 804)(font "Arial" ))
-	(pt 968 808)
-	(pt 1048 808)
-)
-(connector
 	(pt 928 768)
 	(pt 928 760)
-)
-(connector
-	(text "IC[1]" (rect 850 744 874 756)(font "Arial" ))
-	(pt 800 760)
-	(pt 928 760)
-)
-(connector
-	(text "IC[1]" (rect 850 840 874 852)(font "Arial" ))
-	(pt 800 856)
-	(pt 928 856)
-)
-(connector
-	(text "Cout[1]" (rect 978 928 1014 940)(font "Arial" ))
-	(pt 928 944)
-	(pt 1032 944)
-)
-(connector
-	(text "S[1]" (rect 978 888 998 900)(font "Arial" ))
-	(pt 968 904)
-	(pt 1048 904)
 )
 (connector
 	(pt 928 864)
 	(pt 928 856)
 )
 (connector
-	(text "Cout[1]" (rect 978 1024 1014 1036)(font "Arial" ))
-	(pt 928 1040)
-	(pt 1032 1040)
-)
-(connector
-	(text "S[1]" (rect 978 984 998 996)(font "Arial" ))
-	(pt 968 1000)
-	(pt 1048 1000)
-)
-(connector
 	(pt 928 960)
 	(pt 928 952)
-)
-(connector
-	(text "IC[1]" (rect 850 936 874 948)(font "Arial" ))
-	(pt 800 952)
-	(pt 928 952)
-)
-(connector
-	(text "IC[1]" (rect 850 1032 874 1044)(font "Arial" ))
-	(pt 800 1048)
-	(pt 928 1048)
-)
-(connector
-	(text "Cout[1]" (rect 978 1120 1014 1132)(font "Arial" ))
-	(pt 928 1136)
-	(pt 1032 1136)
-)
-(connector
-	(text "S[1]" (rect 978 1080 998 1092)(font "Arial" ))
-	(pt 968 1096)
-	(pt 1048 1096)
 )
 (connector
 	(pt 928 1056)
 	(pt 928 1048)
 )
 (connector
-	(text "Cout[1]" (rect 978 1216 1014 1228)(font "Arial" ))
-	(pt 928 1232)
-	(pt 1032 1232)
-)
-(connector
-	(text "S[1]" (rect 978 1176 998 1188)(font "Arial" ))
-	(pt 968 1192)
-	(pt 1048 1192)
-)
-(connector
 	(pt 928 1152)
 	(pt 928 1144)
-)
-(connector
-	(text "IC[1]" (rect 850 1128 874 1140)(font "Arial" ))
-	(pt 800 1144)
-	(pt 928 1144)
-)
-(connector
-	(text "IC[1]" (rect 850 1224 874 1236)(font "Arial" ))
-	(pt 800 1240)
-	(pt 928 1240)
-)
-(connector
-	(text "Cout[1]" (rect 978 1312 1014 1324)(font "Arial" ))
-	(pt 928 1328)
-	(pt 1032 1328)
-)
-(connector
-	(text "S[1]" (rect 978 1272 998 1284)(font "Arial" ))
-	(pt 968 1288)
-	(pt 1048 1288)
 )
 (connector
 	(pt 928 1248)
 	(pt 928 1240)
 )
 (connector
-	(text "Cout[1]" (rect 978 1408 1014 1420)(font "Arial" ))
-	(pt 928 1424)
-	(pt 1032 1424)
-)
-(connector
-	(text "S[1]" (rect 978 1368 998 1380)(font "Arial" ))
-	(pt 968 1384)
-	(pt 1048 1384)
-)
-(connector
 	(pt 928 1344)
 	(pt 928 1336)
-)
-(connector
-	(text "IC[1]" (rect 850 1320 874 1332)(font "Arial" ))
-	(pt 800 1336)
-	(pt 928 1336)
-)
-(connector
-	(text "IC[1]" (rect 850 1416 874 1428)(font "Arial" ))
-	(pt 800 1432)
-	(pt 928 1432)
-)
-(connector
-	(text "Cout[1]" (rect 978 1504 1014 1516)(font "Arial" ))
-	(pt 928 1520)
-	(pt 1032 1520)
-)
-(connector
-	(text "S[1]" (rect 978 1464 998 1476)(font "Arial" ))
-	(pt 968 1480)
-	(pt 1048 1480)
 )
 (connector
 	(pt 928 1440)
 	(pt 928 1432)
 )
 (connector
-	(text "Cout[1]" (rect 978 1600 1014 1612)(font "Arial" ))
-	(pt 928 1616)
-	(pt 1032 1616)
-)
-(connector
-	(text "S[1]" (rect 978 1560 998 1572)(font "Arial" ))
-	(pt 968 1576)
-	(pt 1048 1576)
-)
-(connector
 	(pt 928 1536)
 	(pt 928 1528)
 )
 (connector
-	(text "IC[1]" (rect 850 1512 874 1524)(font "Arial" ))
-	(pt 800 1528)
-	(pt 928 1528)
-)
-(connector
-	(text "S[1]" (rect 978 1656 998 1668)(font "Arial" ))
-	(pt 968 1672)
-	(pt 1048 1672)
-)
-(connector
 	(pt 928 1632)
-	(pt 928 1624)
-)
-(connector
-	(text "IC[1]" (rect 850 1608 874 1620)(font "Arial" ))
-	(pt 800 1624)
 	(pt 928 1624)
 )
 (connector
@@ -1798,17 +1568,7 @@ applicable agreement for further details.
 	(pt 928 1720)
 )
 (connector
-	(text "IC[1]" (rect 850 1704 874 1716)(font "Arial" ))
-	(pt 800 1720)
-	(pt 928 1720)
-)
-(connector
 	(pt 928 1824)
-	(pt 928 1816)
-)
-(connector
-	(text "IC[1]" (rect 850 1800 874 1812)(font "Arial" ))
-	(pt 800 1816)
 	(pt 928 1816)
 )
 (connector
@@ -1816,17 +1576,7 @@ applicable agreement for further details.
 	(pt 928 1912)
 )
 (connector
-	(text "IC[1]" (rect 850 1896 874 1908)(font "Arial" ))
-	(pt 800 1912)
-	(pt 928 1912)
-)
-(connector
 	(pt 928 2016)
-	(pt 928 2008)
-)
-(connector
-	(text "IC[1]" (rect 850 1992 874 2004)(font "Arial" ))
-	(pt 800 2008)
 	(pt 928 2008)
 )
 (connector
@@ -1834,17 +1584,7 @@ applicable agreement for further details.
 	(pt 928 2104)
 )
 (connector
-	(text "IC[1]" (rect 850 2088 874 2100)(font "Arial" ))
-	(pt 800 2104)
-	(pt 928 2104)
-)
-(connector
 	(pt 928 2208)
-	(pt 928 2200)
-)
-(connector
-	(text "IC[1]" (rect 850 2184 874 2196)(font "Arial" ))
-	(pt 800 2200)
 	(pt 928 2200)
 )
 (connector
@@ -1852,17 +1592,7 @@ applicable agreement for further details.
 	(pt 928 2296)
 )
 (connector
-	(text "IC[1]" (rect 850 2280 874 2292)(font "Arial" ))
-	(pt 800 2296)
-	(pt 928 2296)
-)
-(connector
 	(pt 928 2400)
-	(pt 928 2392)
-)
-(connector
-	(text "IC[1]" (rect 850 2376 874 2388)(font "Arial" ))
-	(pt 800 2392)
 	(pt 928 2392)
 )
 (connector
@@ -1870,17 +1600,7 @@ applicable agreement for further details.
 	(pt 928 2488)
 )
 (connector
-	(text "IC[1]" (rect 850 2472 874 2484)(font "Arial" ))
-	(pt 800 2488)
-	(pt 928 2488)
-)
-(connector
 	(pt 928 2592)
-	(pt 928 2584)
-)
-(connector
-	(text "IC[1]" (rect 850 2568 874 2580)(font "Arial" ))
-	(pt 800 2584)
 	(pt 928 2584)
 )
 (connector
@@ -1888,17 +1608,7 @@ applicable agreement for further details.
 	(pt 928 2680)
 )
 (connector
-	(text "IC[1]" (rect 850 2664 874 2676)(font "Arial" ))
-	(pt 800 2680)
-	(pt 928 2680)
-)
-(connector
 	(pt 928 2784)
-	(pt 928 2776)
-)
-(connector
-	(text "IC[1]" (rect 850 2760 874 2772)(font "Arial" ))
-	(pt 800 2776)
 	(pt 928 2776)
 )
 (connector
@@ -1906,177 +1616,12 @@ applicable agreement for further details.
 	(pt 928 2872)
 )
 (connector
-	(text "IC[1]" (rect 850 2856 874 2868)(font "Arial" ))
-	(pt 800 2872)
-	(pt 928 2872)
-)
-(connector
 	(pt 928 2976)
-	(pt 928 2968)
-)
-(connector
-	(text "IC[1]" (rect 850 2952 874 2964)(font "Arial" ))
-	(pt 800 2968)
 	(pt 928 2968)
 )
 (connector
 	(pt 928 3072)
 	(pt 928 3064)
-)
-(connector
-	(text "IC[1]" (rect 850 3048 874 3060)(font "Arial" ))
-	(pt 800 3064)
-	(pt 928 3064)
-)
-(connector
-	(text "S[1]" (rect 978 1752 998 1764)(font "Arial" ))
-	(pt 968 1768)
-	(pt 1048 1768)
-)
-(connector
-	(text "Cout[1]" (rect 978 1792 1014 1804)(font "Arial" ))
-	(pt 928 1808)
-	(pt 1032 1808)
-)
-(connector
-	(text "S[1]" (rect 978 1848 998 1860)(font "Arial" ))
-	(pt 968 1864)
-	(pt 1048 1864)
-)
-(connector
-	(text "Cout[1]" (rect 978 1888 1014 1900)(font "Arial" ))
-	(pt 928 1904)
-	(pt 1032 1904)
-)
-(connector
-	(text "S[1]" (rect 978 1944 998 1956)(font "Arial" ))
-	(pt 968 1960)
-	(pt 1048 1960)
-)
-(connector
-	(text "Cout[1]" (rect 978 1984 1014 1996)(font "Arial" ))
-	(pt 928 2000)
-	(pt 1032 2000)
-)
-(connector
-	(text "S[1]" (rect 978 2040 998 2052)(font "Arial" ))
-	(pt 968 2056)
-	(pt 1048 2056)
-)
-(connector
-	(text "Cout[1]" (rect 978 2080 1014 2092)(font "Arial" ))
-	(pt 928 2096)
-	(pt 1032 2096)
-)
-(connector
-	(text "S[1]" (rect 978 2136 998 2148)(font "Arial" ))
-	(pt 968 2152)
-	(pt 1048 2152)
-)
-(connector
-	(text "Cout[1]" (rect 978 2176 1014 2188)(font "Arial" ))
-	(pt 928 2192)
-	(pt 1032 2192)
-)
-(connector
-	(text "S[1]" (rect 978 2232 998 2244)(font "Arial" ))
-	(pt 968 2248)
-	(pt 1048 2248)
-)
-(connector
-	(text "Cout[1]" (rect 978 2272 1014 2284)(font "Arial" ))
-	(pt 928 2288)
-	(pt 1032 2288)
-)
-(connector
-	(text "S[1]" (rect 978 2328 998 2340)(font "Arial" ))
-	(pt 968 2344)
-	(pt 1048 2344)
-)
-(connector
-	(text "Cout[1]" (rect 978 2368 1014 2380)(font "Arial" ))
-	(pt 928 2384)
-	(pt 1032 2384)
-)
-(connector
-	(text "S[1]" (rect 978 2424 998 2436)(font "Arial" ))
-	(pt 968 2440)
-	(pt 1048 2440)
-)
-(connector
-	(text "Cout[1]" (rect 978 2464 1014 2476)(font "Arial" ))
-	(pt 928 2480)
-	(pt 1032 2480)
-)
-(connector
-	(text "S[1]" (rect 978 2520 998 2532)(font "Arial" ))
-	(pt 968 2536)
-	(pt 1048 2536)
-)
-(connector
-	(text "Cout[1]" (rect 978 2560 1014 2572)(font "Arial" ))
-	(pt 928 2576)
-	(pt 1032 2576)
-)
-(connector
-	(text "S[1]" (rect 978 2616 998 2628)(font "Arial" ))
-	(pt 968 2632)
-	(pt 1048 2632)
-)
-(connector
-	(text "Cout[1]" (rect 978 2656 1014 2668)(font "Arial" ))
-	(pt 928 2672)
-	(pt 1032 2672)
-)
-(connector
-	(text "S[1]" (rect 978 2712 998 2724)(font "Arial" ))
-	(pt 968 2728)
-	(pt 1048 2728)
-)
-(connector
-	(text "Cout[1]" (rect 978 2752 1014 2764)(font "Arial" ))
-	(pt 928 2768)
-	(pt 1032 2768)
-)
-(connector
-	(text "S[1]" (rect 978 2808 998 2820)(font "Arial" ))
-	(pt 968 2824)
-	(pt 1048 2824)
-)
-(connector
-	(text "Cout[1]" (rect 978 2848 1014 2860)(font "Arial" ))
-	(pt 928 2864)
-	(pt 1032 2864)
-)
-(connector
-	(text "S[1]" (rect 978 2904 998 2916)(font "Arial" ))
-	(pt 968 2920)
-	(pt 1048 2920)
-)
-(connector
-	(text "Cout[1]" (rect 978 2944 1014 2956)(font "Arial" ))
-	(pt 928 2960)
-	(pt 1032 2960)
-)
-(connector
-	(text "S[1]" (rect 978 3000 998 3012)(font "Arial" ))
-	(pt 968 3016)
-	(pt 1048 3016)
-)
-(connector
-	(text "Cout[1]" (rect 978 3040 1014 3052)(font "Arial" ))
-	(pt 928 3056)
-	(pt 1032 3056)
-)
-(connector
-	(text "S[1]" (rect 978 3096 998 3108)(font "Arial" ))
-	(pt 968 3112)
-	(pt 1048 3112)
-)
-(connector
-	(text "Cout[1]" (rect 978 3136 1014 3148)(font "Arial" ))
-	(pt 928 3152)
-	(pt 1032 3152)
 )
 (connector
 	(text "Cin[0]" (rect 850 72 879 84)(font "Arial" ))
@@ -2554,59 +2099,809 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1048 120)
-	(pt 1048 136)
+	(pt 800 72)
+	(pt 800 88)
 	(bus)
 )
 (connector
-	(pt 1048 136)
+	(pt 800 88)
+	(pt 800 184)
+	(bus)
+)
+(connector
+	(text "A[1]" (rect 850 200 870 212)(font "Arial" ))
+	(pt 816 216)
+	(pt 888 216)
+)
+(connector
+	(text "B[1]" (rect 850 232 870 244)(font "Arial" ))
+	(pt 832 248)
+	(pt 888 248)
+)
+(connector
+	(text "A[0]" (rect 850 104 870 116)(font "Arial" ))
+	(pt 816 120)
+	(pt 888 120)
+)
+(connector
+	(text "B[0]" (rect 850 136 870 148)(font "Arial" ))
+	(pt 832 152)
+	(pt 888 152)
+)
+(connector
+	(text "A[2]" (rect 850 296 870 308)(font "Arial" ))
+	(pt 816 312)
+	(pt 888 312)
+)
+(connector
+	(text "B[2]" (rect 850 328 870 340)(font "Arial" ))
+	(pt 832 344)
+	(pt 888 344)
+)
+(connector
+	(text "A[3]" (rect 850 392 870 404)(font "Arial" ))
+	(pt 816 408)
+	(pt 888 408)
+)
+(connector
+	(text "B[3]" (rect 850 424 870 436)(font "Arial" ))
+	(pt 832 440)
+	(pt 888 440)
+)
+(connector
+	(text "A[4]" (rect 850 488 870 500)(font "Arial" ))
+	(pt 816 504)
+	(pt 888 504)
+)
+(connector
+	(text "B[4]" (rect 850 520 870 532)(font "Arial" ))
+	(pt 832 536)
+	(pt 888 536)
+)
+(connector
+	(text "B[5]" (rect 850 616 870 628)(font "Arial" ))
+	(pt 832 632)
+	(pt 888 632)
+)
+(connector
+	(text "A[5]" (rect 850 584 870 596)(font "Arial" ))
+	(pt 816 600)
+	(pt 888 600)
+)
+(connector
+	(text "A[6]" (rect 850 680 870 692)(font "Arial" ))
+	(pt 816 696)
+	(pt 888 696)
+)
+(connector
+	(text "B[6]" (rect 850 712 870 724)(font "Arial" ))
+	(pt 832 728)
+	(pt 888 728)
+)
+(connector
+	(text "A[7]" (rect 850 776 870 788)(font "Arial" ))
+	(pt 816 792)
+	(pt 888 792)
+)
+(connector
+	(text "B[7]" (rect 850 808 870 820)(font "Arial" ))
+	(pt 832 824)
+	(pt 888 824)
+)
+(connector
+	(text "A[8]" (rect 850 872 870 884)(font "Arial" ))
+	(pt 816 888)
+	(pt 888 888)
+)
+(connector
+	(text "B[8]" (rect 850 904 870 916)(font "Arial" ))
+	(pt 832 920)
+	(pt 888 920)
+)
+(connector
+	(text "A[9]" (rect 850 968 870 980)(font "Arial" ))
+	(pt 816 984)
+	(pt 888 984)
+)
+(connector
+	(text "B[9]" (rect 850 1000 870 1012)(font "Arial" ))
+	(pt 832 1016)
+	(pt 888 1016)
+)
+(connector
+	(text "A[10]" (rect 850 1064 875 1076)(font "Arial" ))
+	(pt 816 1080)
+	(pt 888 1080)
+)
+(connector
+	(text "B[10]" (rect 850 1096 875 1108)(font "Arial" ))
+	(pt 832 1112)
+	(pt 888 1112)
+)
+(connector
+	(text "A[11]" (rect 850 1160 875 1172)(font "Arial" ))
+	(pt 816 1176)
+	(pt 888 1176)
+)
+(connector
+	(text "B[11]" (rect 850 1192 875 1204)(font "Arial" ))
+	(pt 832 1208)
+	(pt 888 1208)
+)
+(connector
+	(text "A[12]" (rect 850 1256 875 1268)(font "Arial" ))
+	(pt 816 1272)
+	(pt 888 1272)
+)
+(connector
+	(text "B[12]" (rect 850 1288 875 1300)(font "Arial" ))
+	(pt 832 1304)
+	(pt 888 1304)
+)
+(connector
+	(text "A[13]" (rect 850 1352 875 1364)(font "Arial" ))
+	(pt 816 1368)
+	(pt 888 1368)
+)
+(connector
+	(text "B[13]" (rect 850 1384 875 1396)(font "Arial" ))
+	(pt 832 1400)
+	(pt 888 1400)
+)
+(connector
+	(text "Cin[2]" (rect 850 264 879 276)(font "Arial" ))
+	(pt 800 280)
+	(pt 928 280)
+)
+(connector
+	(text "Cin[3]" (rect 850 360 879 372)(font "Arial" ))
+	(pt 800 376)
+	(pt 928 376)
+)
+(connector
+	(text "Cin[4]" (rect 850 456 879 468)(font "Arial" ))
+	(pt 800 472)
+	(pt 928 472)
+)
+(connector
+	(text "Cin[5]" (rect 850 552 879 564)(font "Arial" ))
+	(pt 800 568)
+	(pt 928 568)
+)
+(connector
+	(text "Cin[6]" (rect 850 648 879 660)(font "Arial" ))
+	(pt 800 664)
+	(pt 928 664)
+)
+(connector
+	(text "Cin[7]" (rect 850 744 879 756)(font "Arial" ))
+	(pt 800 760)
+	(pt 928 760)
+)
+(connector
+	(text "Cin[8]" (rect 850 840 879 852)(font "Arial" ))
+	(pt 800 856)
+	(pt 928 856)
+)
+(connector
+	(text "Cin[9]" (rect 850 936 879 948)(font "Arial" ))
+	(pt 800 952)
+	(pt 928 952)
+)
+(connector
+	(text "Cin[10]" (rect 850 1032 885 1044)(font "Arial" ))
+	(pt 800 1048)
+	(pt 928 1048)
+)
+(connector
+	(text "Cin[11]" (rect 850 1128 885 1140)(font "Arial" ))
+	(pt 800 1144)
+	(pt 928 1144)
+)
+(connector
+	(text "Cin[12]" (rect 850 1224 885 1236)(font "Arial" ))
+	(pt 800 1240)
+	(pt 928 1240)
+)
+(connector
+	(text "Cin[13]" (rect 850 1320 885 1332)(font "Arial" ))
+	(pt 800 1336)
+	(pt 928 1336)
+)
+(connector
+	(text "Cin[14]" (rect 850 1416 885 1428)(font "Arial" ))
+	(pt 800 1432)
+	(pt 928 1432)
+)
+(connector
+	(text "Cin[15]" (rect 850 1512 885 1524)(font "Arial" ))
+	(pt 800 1528)
+	(pt 928 1528)
+)
+(connector
+	(text "Cin[16]" (rect 850 1608 885 1620)(font "Arial" ))
+	(pt 800 1624)
+	(pt 928 1624)
+)
+(connector
+	(text "A[14]" (rect 850 1448 875 1460)(font "Arial" ))
+	(pt 816 1464)
+	(pt 888 1464)
+)
+(connector
+	(text "B[14]" (rect 850 1480 875 1492)(font "Arial" ))
+	(pt 832 1496)
+	(pt 888 1496)
+)
+(connector
+	(text "A[15]" (rect 850 1544 875 1556)(font "Arial" ))
+	(pt 816 1560)
+	(pt 888 1560)
+)
+(connector
+	(text "B[15]" (rect 850 1576 875 1588)(font "Arial" ))
+	(pt 832 1592)
+	(pt 888 1592)
+)
+(connector
+	(text "A[16]" (rect 850 1640 875 1652)(font "Arial" ))
+	(pt 816 1656)
+	(pt 888 1656)
+)
+(connector
+	(text "B[16]" (rect 850 1672 875 1684)(font "Arial" ))
+	(pt 832 1688)
+	(pt 888 1688)
+)
+(connector
+	(text "Cin[17]" (rect 850 1704 885 1716)(font "Arial" ))
+	(pt 800 1720)
+	(pt 928 1720)
+)
+(connector
+	(text "A[17]" (rect 850 1736 875 1748)(font "Arial" ))
+	(pt 816 1752)
+	(pt 888 1752)
+)
+(connector
+	(text "B[17]" (rect 850 1768 875 1780)(font "Arial" ))
+	(pt 832 1784)
+	(pt 888 1784)
+)
+(connector
+	(text "Cin[18]" (rect 850 1800 885 1812)(font "Arial" ))
+	(pt 800 1816)
+	(pt 928 1816)
+)
+(connector
+	(text "A[18]" (rect 850 1832 875 1844)(font "Arial" ))
+	(pt 816 1848)
+	(pt 888 1848)
+)
+(connector
+	(text "B[18]" (rect 850 1864 875 1876)(font "Arial" ))
+	(pt 832 1880)
+	(pt 888 1880)
+)
+(connector
+	(text "Cin[19]" (rect 850 1896 885 1908)(font "Arial" ))
+	(pt 800 1912)
+	(pt 928 1912)
+)
+(connector
+	(text "A[19]" (rect 850 1928 875 1940)(font "Arial" ))
+	(pt 816 1944)
+	(pt 888 1944)
+)
+(connector
+	(text "B[19]" (rect 850 1960 875 1972)(font "Arial" ))
+	(pt 832 1976)
+	(pt 888 1976)
+)
+(connector
+	(text "Cin[20]" (rect 850 1992 885 2004)(font "Arial" ))
+	(pt 800 2008)
+	(pt 928 2008)
+)
+(connector
+	(text "A[20]" (rect 850 2024 875 2036)(font "Arial" ))
+	(pt 816 2040)
+	(pt 888 2040)
+)
+(connector
+	(text "B[20]" (rect 850 2056 875 2068)(font "Arial" ))
+	(pt 832 2072)
+	(pt 888 2072)
+)
+(connector
+	(text "Cin[21]" (rect 850 2088 885 2100)(font "Arial" ))
+	(pt 800 2104)
+	(pt 928 2104)
+)
+(connector
+	(text "A[21]" (rect 850 2120 875 2132)(font "Arial" ))
+	(pt 816 2136)
+	(pt 888 2136)
+)
+(connector
+	(text "B[21]" (rect 850 2152 875 2164)(font "Arial" ))
+	(pt 832 2168)
+	(pt 888 2168)
+)
+(connector
+	(text "Cin[22]" (rect 850 2184 885 2196)(font "Arial" ))
+	(pt 800 2200)
+	(pt 928 2200)
+)
+(connector
+	(text "A[22]" (rect 850 2216 875 2228)(font "Arial" ))
+	(pt 816 2232)
+	(pt 888 2232)
+)
+(connector
+	(text "B[22]" (rect 850 2248 875 2260)(font "Arial" ))
+	(pt 832 2264)
+	(pt 888 2264)
+)
+(connector
+	(text "Cin[23]" (rect 850 2280 885 2292)(font "Arial" ))
+	(pt 800 2296)
+	(pt 928 2296)
+)
+(connector
+	(text "A[23]" (rect 850 2312 875 2324)(font "Arial" ))
+	(pt 816 2328)
+	(pt 888 2328)
+)
+(connector
+	(text "B[23]" (rect 850 2344 875 2356)(font "Arial" ))
+	(pt 832 2360)
+	(pt 888 2360)
+)
+(connector
+	(text "Cin[24]" (rect 850 2376 885 2388)(font "Arial" ))
+	(pt 800 2392)
+	(pt 928 2392)
+)
+(connector
+	(text "A[24]" (rect 850 2408 875 2420)(font "Arial" ))
+	(pt 816 2424)
+	(pt 888 2424)
+)
+(connector
+	(text "B[24]" (rect 850 2440 875 2452)(font "Arial" ))
+	(pt 832 2456)
+	(pt 888 2456)
+)
+(connector
+	(text "Cin[25]" (rect 850 2472 885 2484)(font "Arial" ))
+	(pt 800 2488)
+	(pt 928 2488)
+)
+(connector
+	(text "A[25]" (rect 850 2504 875 2516)(font "Arial" ))
+	(pt 816 2520)
+	(pt 888 2520)
+)
+(connector
+	(text "B[25]" (rect 850 2536 875 2548)(font "Arial" ))
+	(pt 832 2552)
+	(pt 888 2552)
+)
+(connector
+	(text "Cin[26]" (rect 850 2568 885 2580)(font "Arial" ))
+	(pt 800 2584)
+	(pt 928 2584)
+)
+(connector
+	(text "A[26]" (rect 850 2600 875 2612)(font "Arial" ))
+	(pt 816 2616)
+	(pt 888 2616)
+)
+(connector
+	(text "B[26]" (rect 850 2632 875 2644)(font "Arial" ))
+	(pt 832 2648)
+	(pt 888 2648)
+)
+(connector
+	(text "Cin[27]" (rect 850 2664 885 2676)(font "Arial" ))
+	(pt 800 2680)
+	(pt 928 2680)
+)
+(connector
+	(text "A[27]" (rect 850 2696 875 2708)(font "Arial" ))
+	(pt 816 2712)
+	(pt 888 2712)
+)
+(connector
+	(text "B[27]" (rect 850 2728 875 2740)(font "Arial" ))
+	(pt 832 2744)
+	(pt 888 2744)
+)
+(connector
+	(text "Cin[28]" (rect 850 2760 885 2772)(font "Arial" ))
+	(pt 800 2776)
+	(pt 928 2776)
+)
+(connector
+	(text "A[28]" (rect 850 2792 875 2804)(font "Arial" ))
+	(pt 816 2808)
+	(pt 888 2808)
+)
+(connector
+	(text "B[28]" (rect 850 2824 875 2836)(font "Arial" ))
+	(pt 832 2840)
+	(pt 888 2840)
+)
+(connector
+	(text "Cin[29]" (rect 850 2856 885 2868)(font "Arial" ))
+	(pt 800 2872)
+	(pt 928 2872)
+)
+(connector
+	(text "A[29]" (rect 850 2888 875 2900)(font "Arial" ))
+	(pt 816 2904)
+	(pt 888 2904)
+)
+(connector
+	(text "B[29]" (rect 850 2920 875 2932)(font "Arial" ))
+	(pt 832 2936)
+	(pt 888 2936)
+)
+(connector
+	(text "Cin[30]" (rect 850 2952 885 2964)(font "Arial" ))
+	(pt 800 2968)
+	(pt 928 2968)
+)
+(connector
+	(text "A[30]" (rect 850 2984 875 2996)(font "Arial" ))
+	(pt 816 3000)
+	(pt 888 3000)
+)
+(connector
+	(text "B[30]" (rect 850 3016 875 3028)(font "Arial" ))
+	(pt 832 3032)
+	(pt 888 3032)
+)
+(connector
+	(text "Cin[31]" (rect 850 3048 885 3060)(font "Arial" ))
+	(pt 800 3064)
+	(pt 928 3064)
+)
+(connector
+	(text "A[31]" (rect 850 3080 875 3092)(font "Arial" ))
+	(pt 816 3096)
+	(pt 888 3096)
+)
+(connector
+	(text "B[31]" (rect 850 3112 875 3124)(font "Arial" ))
+	(pt 832 3128)
+	(pt 888 3128)
+)
+(connector
+	(text "S[1]" (rect 978 216 998 228)(font "Arial" ))
+	(pt 968 232)
 	(pt 1048 232)
-	(bus)
 )
 (connector
-	(pt 1048 232)
-	(pt 1048 328)
-	(bus)
-)
-(connector
-	(pt 1048 328)
-	(pt 1048 424)
-	(bus)
-)
-(connector
-	(pt 1048 424)
-	(pt 1048 520)
-	(bus)
-)
-(connector
-	(pt 1048 520)
+	(text "S[5]" (rect 978 600 998 612)(font "Arial" ))
+	(pt 968 616)
 	(pt 1048 616)
-	(bus)
 )
 (connector
-	(pt 1048 616)
+	(text "S[6]" (rect 978 696 998 708)(font "Arial" ))
+	(pt 968 712)
 	(pt 1048 712)
-	(bus)
 )
 (connector
-	(pt 1048 712)
+	(text "S[7]" (rect 978 792 998 804)(font "Arial" ))
+	(pt 968 808)
 	(pt 1048 808)
-	(bus)
 )
 (connector
-	(pt 1048 808)
+	(text "S[8]" (rect 978 888 998 900)(font "Arial" ))
+	(pt 968 904)
 	(pt 1048 904)
-	(bus)
 )
 (connector
-	(pt 1048 904)
+	(text "S[9]" (rect 978 984 998 996)(font "Arial" ))
+	(pt 968 1000)
 	(pt 1048 1000)
-	(bus)
 )
 (connector
-	(pt 1048 1000)
+	(text "S[10]" (rect 978 1080 1003 1092)(font "Arial" ))
+	(pt 968 1096)
 	(pt 1048 1096)
+)
+(connector
+	(text "S[11]" (rect 978 1176 1003 1188)(font "Arial" ))
+	(pt 968 1192)
+	(pt 1048 1192)
+)
+(connector
+	(text "S[12]" (rect 978 1272 1003 1284)(font "Arial" ))
+	(pt 968 1288)
+	(pt 1048 1288)
+)
+(connector
+	(text "S[13]" (rect 978 1368 1003 1380)(font "Arial" ))
+	(pt 968 1384)
+	(pt 1048 1384)
+)
+(connector
+	(text "S[14]" (rect 978 1464 1003 1476)(font "Arial" ))
+	(pt 968 1480)
+	(pt 1048 1480)
+)
+(connector
+	(text "S[15]" (rect 978 1560 1003 1572)(font "Arial" ))
+	(pt 968 1576)
+	(pt 1048 1576)
+)
+(connector
+	(text "S[16]" (rect 978 1656 1003 1668)(font "Arial" ))
+	(pt 968 1672)
+	(pt 1048 1672)
+)
+(connector
+	(text "S[17]" (rect 978 1752 1003 1764)(font "Arial" ))
+	(pt 968 1768)
+	(pt 1048 1768)
+)
+(connector
+	(text "S[18]" (rect 978 1848 1003 1860)(font "Arial" ))
+	(pt 968 1864)
+	(pt 1048 1864)
+)
+(connector
+	(text "S[19]" (rect 978 1944 1003 1956)(font "Arial" ))
+	(pt 968 1960)
+	(pt 1048 1960)
+)
+(connector
+	(text "S[20]" (rect 978 2040 1003 2052)(font "Arial" ))
+	(pt 968 2056)
+	(pt 1048 2056)
+)
+(connector
+	(text "S[21]" (rect 978 2136 1003 2148)(font "Arial" ))
+	(pt 968 2152)
+	(pt 1048 2152)
+)
+(connector
+	(text "S[22]" (rect 978 2232 1003 2244)(font "Arial" ))
+	(pt 968 2248)
+	(pt 1048 2248)
+)
+(connector
+	(text "S[23]" (rect 978 2328 1003 2340)(font "Arial" ))
+	(pt 968 2344)
+	(pt 1048 2344)
+)
+(connector
+	(text "S[24]" (rect 978 2424 1003 2436)(font "Arial" ))
+	(pt 968 2440)
+	(pt 1048 2440)
+)
+(connector
+	(text "S[25]" (rect 978 2520 1003 2532)(font "Arial" ))
+	(pt 968 2536)
+	(pt 1048 2536)
+)
+(connector
+	(text "S[26]" (rect 978 2616 1003 2628)(font "Arial" ))
+	(pt 968 2632)
+	(pt 1048 2632)
+)
+(connector
+	(text "S[27]" (rect 978 2712 1003 2724)(font "Arial" ))
+	(pt 968 2728)
+	(pt 1048 2728)
+)
+(connector
+	(text "S[28]" (rect 978 2808 1003 2820)(font "Arial" ))
+	(pt 968 2824)
+	(pt 1048 2824)
+)
+(connector
+	(text "S[29]" (rect 978 2904 1003 2916)(font "Arial" ))
+	(pt 968 2920)
+	(pt 1048 2920)
+)
+(connector
+	(text "S[30]" (rect 978 3000 1003 3012)(font "Arial" ))
+	(pt 968 3016)
+	(pt 1048 3016)
+)
+(connector
+	(text "S[31]" (rect 978 3096 1003 3108)(font "Arial" ))
+	(pt 968 3112)
+	(pt 1048 3112)
+)
+(connector
+	(pt 1048 120)
+	(pt 1064 120)
 	(bus)
+)
+(connector
+	(pt 1032 160)
+	(pt 1064 160)
+	(bus)
+)
+(connector
+	(text "S[0]" (rect 978 120 998 132)(font "Arial" ))
+	(pt 968 136)
+	(pt 1048 136)
+)
+(connector
+	(text "S[2]" (rect 978 312 998 324)(font "Arial" ))
+	(pt 968 328)
+	(pt 1048 328)
+)
+(connector
+	(text "S[3]" (rect 978 408 998 420)(font "Arial" ))
+	(pt 968 424)
+	(pt 1048 424)
+)
+(connector
+	(text "S[4]" (rect 978 504 998 516)(font "Arial" ))
+	(pt 968 520)
+	(pt 1048 520)
+)
+(connector
+	(text "Cout[1]" (rect 978 256 1014 268)(font "Arial" ))
+	(pt 928 272)
+	(pt 1032 272)
+)
+(connector
+	(text "Cout[5]" (rect 978 640 1014 652)(font "Arial" ))
+	(pt 928 656)
+	(pt 1032 656)
+)
+(connector
+	(text "Cout[6]" (rect 978 736 1014 748)(font "Arial" ))
+	(pt 928 752)
+	(pt 1032 752)
+)
+(connector
+	(text "Cout[7]" (rect 978 832 1014 844)(font "Arial" ))
+	(pt 928 848)
+	(pt 1032 848)
+)
+(connector
+	(text "Cout[8]" (rect 978 928 1014 940)(font "Arial" ))
+	(pt 928 944)
+	(pt 1032 944)
+)
+(connector
+	(text "Cout[9]" (rect 978 1024 1014 1036)(font "Arial" ))
+	(pt 928 1040)
+	(pt 1032 1040)
+)
+(connector
+	(text "Cout[10]" (rect 978 1120 1020 1132)(font "Arial" ))
+	(pt 928 1136)
+	(pt 1032 1136)
+)
+(connector
+	(text "Cout[11]" (rect 978 1216 1020 1228)(font "Arial" ))
+	(pt 928 1232)
+	(pt 1032 1232)
+)
+(connector
+	(text "Cout[12]" (rect 978 1312 1020 1324)(font "Arial" ))
+	(pt 928 1328)
+	(pt 1032 1328)
+)
+(connector
+	(text "Cout[13]" (rect 978 1408 1020 1420)(font "Arial" ))
+	(pt 928 1424)
+	(pt 1032 1424)
+)
+(connector
+	(text "Cout[14]" (rect 978 1504 1020 1516)(font "Arial" ))
+	(pt 928 1520)
+	(pt 1032 1520)
+)
+(connector
+	(text "Cout[15]" (rect 978 1600 1020 1612)(font "Arial" ))
+	(pt 928 1616)
+	(pt 1032 1616)
+)
+(connector
+	(text "Cout[17]" (rect 978 1792 1020 1804)(font "Arial" ))
+	(pt 928 1808)
+	(pt 1032 1808)
+)
+(connector
+	(text "Cout[18]" (rect 978 1888 1020 1900)(font "Arial" ))
+	(pt 928 1904)
+	(pt 1032 1904)
+)
+(connector
+	(text "Cout[19]" (rect 978 1984 1020 1996)(font "Arial" ))
+	(pt 928 2000)
+	(pt 1032 2000)
+)
+(connector
+	(text "Cout[20]" (rect 978 2080 1020 2092)(font "Arial" ))
+	(pt 928 2096)
+	(pt 1032 2096)
+)
+(connector
+	(text "Cout[21]" (rect 978 2176 1020 2188)(font "Arial" ))
+	(pt 928 2192)
+	(pt 1032 2192)
+)
+(connector
+	(text "Cout[22]" (rect 978 2272 1020 2284)(font "Arial" ))
+	(pt 928 2288)
+	(pt 1032 2288)
+)
+(connector
+	(text "Cout[23]" (rect 978 2368 1020 2380)(font "Arial" ))
+	(pt 928 2384)
+	(pt 1032 2384)
+)
+(connector
+	(text "Cout[24]" (rect 978 2464 1020 2476)(font "Arial" ))
+	(pt 928 2480)
+	(pt 1032 2480)
+)
+(connector
+	(text "Cout[25]" (rect 978 2560 1020 2572)(font "Arial" ))
+	(pt 928 2576)
+	(pt 1032 2576)
+)
+(connector
+	(text "Cout[26]" (rect 978 2656 1020 2668)(font "Arial" ))
+	(pt 928 2672)
+	(pt 1032 2672)
+)
+(connector
+	(text "Cout[27]" (rect 978 2752 1020 2764)(font "Arial" ))
+	(pt 928 2768)
+	(pt 1032 2768)
+)
+(connector
+	(text "Cout[28]" (rect 978 2848 1020 2860)(font "Arial" ))
+	(pt 928 2864)
+	(pt 1032 2864)
+)
+(connector
+	(text "Cout[29]" (rect 978 2944 1020 2956)(font "Arial" ))
+	(pt 928 2960)
+	(pt 1032 2960)
+)
+(connector
+	(text "Cout[30]" (rect 978 3040 1020 3052)(font "Arial" ))
+	(pt 928 3056)
+	(pt 1032 3056)
+)
+(connector
+	(text "Cout[31]" (rect 978 3136 1020 3148)(font "Arial" ))
+	(pt 928 3152)
+	(pt 1032 3152)
+)
+(connector
+	(text "Cout[0]" (rect 978 160 1014 172)(font "Arial" ))
+	(pt 928 176)
+	(pt 1032 176)
+)
+(connector
+	(text "Cout[2]" (rect 978 352 1014 364)(font "Arial" ))
+	(pt 928 368)
+	(pt 1032 368)
+)
+(connector
+	(text "Cout[3]" (rect 978 448 1014 460)(font "Arial" ))
+	(pt 928 464)
+	(pt 1032 464)
+)
+(connector
+	(text "Cout[4]" (rect 978 544 1014 556)(font "Arial" ))
+	(pt 928 560)
+	(pt 1032 560)
 )
 (connector
 	(pt 1048 1096)
@@ -2714,58 +3009,58 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1032 160)
-	(pt 1032 176)
+	(pt 1048 120)
+	(pt 1048 136)
 	(bus)
 )
 (connector
-	(pt 1032 176)
-	(pt 1032 272)
+	(pt 1048 136)
+	(pt 1048 232)
 	(bus)
 )
 (connector
-	(pt 1032 272)
-	(pt 1032 368)
+	(pt 1048 232)
+	(pt 1048 328)
 	(bus)
 )
 (connector
-	(pt 1032 368)
-	(pt 1032 464)
+	(pt 1048 328)
+	(pt 1048 424)
 	(bus)
 )
 (connector
-	(pt 1032 464)
-	(pt 1032 560)
+	(pt 1048 424)
+	(pt 1048 520)
 	(bus)
 )
 (connector
-	(pt 1032 560)
-	(pt 1032 656)
+	(pt 1048 520)
+	(pt 1048 616)
 	(bus)
 )
 (connector
-	(pt 1032 656)
-	(pt 1032 752)
+	(pt 1048 616)
+	(pt 1048 712)
 	(bus)
 )
 (connector
-	(pt 1032 752)
-	(pt 1032 848)
+	(pt 1048 712)
+	(pt 1048 808)
 	(bus)
 )
 (connector
-	(pt 1032 848)
-	(pt 1032 944)
+	(pt 1048 808)
+	(pt 1048 904)
 	(bus)
 )
 (connector
-	(pt 1032 944)
-	(pt 1032 1040)
+	(pt 1048 904)
+	(pt 1048 1000)
 	(bus)
 )
 (connector
-	(pt 1032 1040)
-	(pt 1032 1136)
+	(pt 1048 1000)
+	(pt 1048 1096)
 	(bus)
 )
 (connector
@@ -2781,31 +3076,6 @@ applicable agreement for further details.
 (connector
 	(pt 1032 1328)
 	(pt 1032 1424)
-	(bus)
-)
-(connector
-	(pt 1032 1424)
-	(pt 1032 1520)
-	(bus)
-)
-(connector
-	(pt 1032 1520)
-	(pt 1032 1616)
-	(bus)
-)
-(connector
-	(pt 1032 1616)
-	(pt 1032 1808)
-	(bus)
-)
-(connector
-	(pt 1032 1808)
-	(pt 1032 1904)
-	(bus)
-)
-(connector
-	(pt 1032 1904)
-	(pt 1032 2000)
 	(bus)
 )
 (connector
@@ -2869,354 +3139,94 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 800 72)
-	(pt 800 88)
-	(bus)
-)
-(connector
-	(pt 800 88)
-	(pt 800 184)
-	(bus)
-)
-(connector
-	(text "IA[1]" (rect 850 200 873 212)(font "Arial" ))
-	(pt 816 216)
-	(pt 888 216)
-)
-(connector
-	(text "IB[1]" (rect 850 232 873 244)(font "Arial" ))
-	(pt 832 248)
-	(pt 888 248)
-)
-(connector
-	(text "IA[1]" (rect 850 296 873 308)(font "Arial" ))
-	(pt 816 312)
-	(pt 888 312)
-)
-(connector
-	(text "IB[1]" (rect 850 328 873 340)(font "Arial" ))
-	(pt 832 344)
-	(pt 888 344)
-)
-(connector
-	(text "IA[1]" (rect 850 392 873 404)(font "Arial" ))
-	(pt 816 408)
-	(pt 888 408)
-)
-(connector
-	(text "IB[1]" (rect 850 424 873 436)(font "Arial" ))
-	(pt 832 440)
-	(pt 888 440)
-)
-(connector
-	(text "IA[1]" (rect 850 488 873 500)(font "Arial" ))
-	(pt 816 504)
-	(pt 888 504)
-)
-(connector
-	(text "IB[1]" (rect 850 520 873 532)(font "Arial" ))
-	(pt 832 536)
-	(pt 888 536)
-)
-(connector
-	(text "IA[1]" (rect 850 584 873 596)(font "Arial" ))
-	(pt 816 600)
-	(pt 888 600)
-)
-(connector
-	(text "IB[1]" (rect 850 616 873 628)(font "Arial" ))
-	(pt 832 632)
-	(pt 888 632)
-)
-(connector
-	(text "IA[1]" (rect 850 680 873 692)(font "Arial" ))
-	(pt 816 696)
-	(pt 888 696)
-)
-(connector
-	(text "IB[1]" (rect 850 712 873 724)(font "Arial" ))
-	(pt 832 728)
-	(pt 888 728)
-)
-(connector
-	(text "IA[1]" (rect 850 776 873 788)(font "Arial" ))
-	(pt 816 792)
-	(pt 888 792)
-)
-(connector
-	(text "IB[1]" (rect 850 808 873 820)(font "Arial" ))
-	(pt 832 824)
-	(pt 888 824)
-)
-(connector
-	(text "IA[1]" (rect 850 872 873 884)(font "Arial" ))
-	(pt 816 888)
-	(pt 888 888)
-)
-(connector
-	(text "IB[1]" (rect 850 904 873 916)(font "Arial" ))
-	(pt 832 920)
-	(pt 888 920)
-)
-(connector
-	(text "IA[1]" (rect 850 968 873 980)(font "Arial" ))
-	(pt 816 984)
-	(pt 888 984)
-)
-(connector
-	(text "IB[1]" (rect 850 1000 873 1012)(font "Arial" ))
-	(pt 832 1016)
-	(pt 888 1016)
-)
-(connector
-	(text "IA[1]" (rect 850 1064 873 1076)(font "Arial" ))
-	(pt 816 1080)
-	(pt 888 1080)
-)
-(connector
-	(text "IB[1]" (rect 850 1096 873 1108)(font "Arial" ))
-	(pt 832 1112)
-	(pt 888 1112)
-)
-(connector
-	(text "IA[1]" (rect 850 1160 873 1172)(font "Arial" ))
-	(pt 816 1176)
-	(pt 888 1176)
-)
-(connector
-	(text "IB[1]" (rect 850 1192 873 1204)(font "Arial" ))
-	(pt 832 1208)
-	(pt 888 1208)
-)
-(connector
-	(text "IA[1]" (rect 850 1256 873 1268)(font "Arial" ))
-	(pt 816 1272)
-	(pt 888 1272)
-)
-(connector
-	(text "IB[1]" (rect 850 1288 873 1300)(font "Arial" ))
-	(pt 832 1304)
-	(pt 888 1304)
-)
-(connector
-	(text "IA[1]" (rect 850 1352 873 1364)(font "Arial" ))
-	(pt 816 1368)
-	(pt 888 1368)
-)
-(connector
-	(text "IB[1]" (rect 850 1384 873 1396)(font "Arial" ))
-	(pt 832 1400)
-	(pt 888 1400)
-)
-(connector
-	(text "IA[1]" (rect 850 1448 873 1460)(font "Arial" ))
-	(pt 816 1464)
-	(pt 888 1464)
-)
-(connector
-	(text "IB[1]" (rect 850 1480 873 1492)(font "Arial" ))
-	(pt 832 1496)
-	(pt 888 1496)
-)
-(connector
-	(text "IA[1]" (rect 850 1544 873 1556)(font "Arial" ))
-	(pt 816 1560)
-	(pt 888 1560)
-)
-(connector
-	(text "IB[1]" (rect 850 1576 873 1588)(font "Arial" ))
-	(pt 832 1592)
-	(pt 888 1592)
-)
-(connector
-	(text "IA[1]" (rect 850 1640 873 1652)(font "Arial" ))
-	(pt 816 1656)
-	(pt 888 1656)
-)
-(connector
-	(text "IB[1]" (rect 850 1672 873 1684)(font "Arial" ))
-	(pt 832 1688)
-	(pt 888 1688)
-)
-(connector
-	(text "IA[1]" (rect 850 1736 873 1748)(font "Arial" ))
-	(pt 816 1752)
-	(pt 888 1752)
-)
-(connector
-	(text "IB[1]" (rect 850 1768 873 1780)(font "Arial" ))
-	(pt 832 1784)
-	(pt 888 1784)
-)
-(connector
-	(text "IA[1]" (rect 850 1832 873 1844)(font "Arial" ))
-	(pt 816 1848)
-	(pt 888 1848)
-)
-(connector
-	(text "IB[1]" (rect 850 1864 873 1876)(font "Arial" ))
-	(pt 832 1880)
-	(pt 888 1880)
-)
-(connector
-	(text "IA[1]" (rect 850 1928 873 1940)(font "Arial" ))
-	(pt 816 1944)
-	(pt 888 1944)
-)
-(connector
-	(text "IB[1]" (rect 850 1960 873 1972)(font "Arial" ))
-	(pt 832 1976)
-	(pt 888 1976)
-)
-(connector
-	(text "IA[1]" (rect 850 2024 873 2036)(font "Arial" ))
-	(pt 816 2040)
-	(pt 888 2040)
-)
-(connector
-	(text "IB[1]" (rect 850 2056 873 2068)(font "Arial" ))
-	(pt 832 2072)
-	(pt 888 2072)
-)
-(connector
-	(text "IA[1]" (rect 850 2120 873 2132)(font "Arial" ))
-	(pt 816 2136)
-	(pt 888 2136)
-)
-(connector
-	(text "IB[1]" (rect 850 2152 873 2164)(font "Arial" ))
-	(pt 832 2168)
-	(pt 888 2168)
-)
-(connector
-	(text "IA[1]" (rect 850 2216 873 2228)(font "Arial" ))
-	(pt 816 2232)
-	(pt 888 2232)
-)
-(connector
-	(text "IB[1]" (rect 850 2248 873 2260)(font "Arial" ))
-	(pt 832 2264)
-	(pt 888 2264)
-)
-(connector
-	(text "IA[1]" (rect 850 2312 873 2324)(font "Arial" ))
-	(pt 816 2328)
-	(pt 888 2328)
-)
-(connector
-	(text "IB[1]" (rect 850 2344 873 2356)(font "Arial" ))
-	(pt 832 2360)
-	(pt 888 2360)
-)
-(connector
-	(text "IA[1]" (rect 850 2408 873 2420)(font "Arial" ))
-	(pt 816 2424)
-	(pt 888 2424)
-)
-(connector
-	(text "IB[1]" (rect 850 2440 873 2452)(font "Arial" ))
-	(pt 832 2456)
-	(pt 888 2456)
-)
-(connector
-	(text "IA[1]" (rect 850 2504 873 2516)(font "Arial" ))
-	(pt 816 2520)
-	(pt 888 2520)
-)
-(connector
-	(text "IB[1]" (rect 850 2536 873 2548)(font "Arial" ))
-	(pt 832 2552)
-	(pt 888 2552)
-)
-(connector
-	(text "IA[1]" (rect 850 2600 873 2612)(font "Arial" ))
-	(pt 816 2616)
-	(pt 888 2616)
-)
-(connector
-	(text "IB[1]" (rect 850 2632 873 2644)(font "Arial" ))
-	(pt 832 2648)
-	(pt 888 2648)
-)
-(connector
-	(text "IA[1]" (rect 850 2696 873 2708)(font "Arial" ))
-	(pt 816 2712)
-	(pt 888 2712)
-)
-(connector
-	(text "IB[1]" (rect 850 2728 873 2740)(font "Arial" ))
-	(pt 832 2744)
-	(pt 888 2744)
-)
-(connector
-	(text "IA[1]" (rect 850 2792 873 2804)(font "Arial" ))
-	(pt 816 2808)
-	(pt 888 2808)
-)
-(connector
-	(text "IB[1]" (rect 850 2824 873 2836)(font "Arial" ))
-	(pt 832 2840)
-	(pt 888 2840)
-)
-(connector
-	(text "IA[1]" (rect 850 2888 873 2900)(font "Arial" ))
-	(pt 816 2904)
-	(pt 888 2904)
-)
-(connector
-	(text "IB[1]" (rect 850 2920 873 2932)(font "Arial" ))
-	(pt 832 2936)
-	(pt 888 2936)
-)
-(connector
-	(text "IA[1]" (rect 850 2984 873 2996)(font "Arial" ))
-	(pt 816 3000)
-	(pt 888 3000)
-)
-(connector
-	(text "IB[1]" (rect 850 3016 873 3028)(font "Arial" ))
-	(pt 832 3032)
-	(pt 888 3032)
-)
-(connector
-	(text "IA[1]" (rect 850 3080 873 3092)(font "Arial" ))
-	(pt 816 3096)
-	(pt 888 3096)
-)
-(connector
-	(text "IB[1]" (rect 850 3112 873 3124)(font "Arial" ))
-	(pt 832 3128)
-	(pt 888 3128)
-)
-(connector
-	(pt 1048 120)
-	(pt 1064 120)
-	(bus)
-)
-(connector
 	(pt 1032 160)
-	(pt 1064 160)
+	(pt 1032 176)
 	(bus)
 )
 (connector
-	(text "IA[0]" (rect 850 104 873 116)(font "Arial" ))
-	(pt 816 120)
-	(pt 888 120)
-)
-(connector
-	(text "IB[0]" (rect 850 136 873 148)(font "Arial" ))
-	(pt 832 152)
-	(pt 888 152)
-)
-(connector
-	(text "S[0]" (rect 978 120 998 132)(font "Arial" ))
-	(pt 968 136)
-	(pt 1048 136)
-)
-(connector
-	(text "Cout[0]" (rect 978 160 1014 172)(font "Arial" ))
-	(pt 928 176)
 	(pt 1032 176)
+	(pt 1032 272)
+	(bus)
+)
+(connector
+	(pt 1032 272)
+	(pt 1032 368)
+	(bus)
+)
+(connector
+	(pt 1032 368)
+	(pt 1032 464)
+	(bus)
+)
+(connector
+	(pt 1032 464)
+	(pt 1032 560)
+	(bus)
+)
+(connector
+	(pt 1032 560)
+	(pt 1032 656)
+	(bus)
+)
+(connector
+	(pt 1032 656)
+	(pt 1032 752)
+	(bus)
+)
+(connector
+	(pt 1032 752)
+	(pt 1032 848)
+	(bus)
+)
+(connector
+	(pt 1032 848)
+	(pt 1032 944)
+	(bus)
+)
+(connector
+	(pt 1032 944)
+	(pt 1032 1040)
+	(bus)
+)
+(connector
+	(pt 1032 1040)
+	(pt 1032 1136)
+	(bus)
+)
+(connector
+	(pt 1032 1424)
+	(pt 1032 1520)
+	(bus)
+)
+(connector
+	(pt 1032 1520)
+	(pt 1032 1616)
+	(bus)
+)
+(connector
+	(pt 1032 1808)
+	(pt 1032 1904)
+	(bus)
+)
+(connector
+	(pt 1032 1904)
+	(pt 1032 2000)
+	(bus)
+)
+(connector
+	(text "Cout[16]" (rect 978 1696 1020 1708)(font "Arial" ))
+	(pt 1032 1712)
+	(pt 928 1712)
+)
+(connector
+	(pt 1032 1616)
+	(pt 1032 1712)
+	(bus)
+)
+(connector
+	(pt 1032 1712)
+	(pt 1032 1808)
+	(bus)
 )
 (junction (pt 816 120))
 (junction (pt 832 152))
@@ -3311,15 +3321,6 @@ applicable agreement for further details.
 (junction (pt 816 1848))
 (junction (pt 832 1784))
 (junction (pt 832 1880))
-(junction (pt 1048 136))
-(junction (pt 1048 232))
-(junction (pt 1048 328))
-(junction (pt 1048 424))
-(junction (pt 1048 520))
-(junction (pt 1048 616))
-(junction (pt 1048 712))
-(junction (pt 1048 808))
-(junction (pt 1048 904))
 (junction (pt 1048 1000))
 (junction (pt 1048 1096))
 (junction (pt 1048 1192))
@@ -3342,23 +3343,21 @@ applicable agreement for further details.
 (junction (pt 1048 2824))
 (junction (pt 1048 2920))
 (junction (pt 1048 3016))
-(junction (pt 1032 176))
-(junction (pt 1032 272))
-(junction (pt 1032 368))
-(junction (pt 1032 464))
-(junction (pt 1032 560))
-(junction (pt 1032 656))
-(junction (pt 1032 752))
-(junction (pt 1032 848))
-(junction (pt 1032 944))
+(junction (pt 1048 136))
+(junction (pt 1048 232))
+(junction (pt 1048 328))
+(junction (pt 1048 424))
+(junction (pt 1048 520))
+(junction (pt 1048 616))
+(junction (pt 1048 712))
+(junction (pt 1048 808))
+(junction (pt 1048 904))
 (junction (pt 1032 1040))
 (junction (pt 1032 1136))
 (junction (pt 1032 1232))
 (junction (pt 1032 1328))
 (junction (pt 1032 1424))
 (junction (pt 1032 1520))
-(junction (pt 1032 1616))
-(junction (pt 1032 1808))
 (junction (pt 1032 1904))
 (junction (pt 1032 2000))
 (junction (pt 1032 2096))
@@ -3372,3 +3371,15 @@ applicable agreement for further details.
 (junction (pt 1032 2864))
 (junction (pt 1032 2960))
 (junction (pt 1032 3056))
+(junction (pt 1032 176))
+(junction (pt 1032 272))
+(junction (pt 1032 368))
+(junction (pt 1032 464))
+(junction (pt 1032 560))
+(junction (pt 1032 656))
+(junction (pt 1032 752))
+(junction (pt 1032 848))
+(junction (pt 1032 944))
+(junction (pt 1032 1616))
+(junction (pt 1032 1712))
+(junction (pt 1032 1808))

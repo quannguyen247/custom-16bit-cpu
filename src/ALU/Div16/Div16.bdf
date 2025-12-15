@@ -942,64 +942,6 @@ applicable agreement for further details.
 	(flipx)
 )
 (symbol
-	(rect 1224 368 1360 464)
-	(text "Reg1x16" (rect 5 0 55 14)(font "Arial" (font_size 8)))
-	(text "inst4" (rect 8 80 31 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "I[15..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
-		(text "I[15..0]" (rect 21 27 58 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "CLK" (rect 21 43 44 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 136 32)
-		(output)
-		(text "O[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
-		(text "O[15..0]" (rect 71 27 115 41)(font "Arial" (font_size 8)))
-		(line (pt 136 32)(pt 120 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 120 80))
-	)
-)
-(symbol
-	(rect 1224 272 1360 368)
-	(text "Reg1x16" (rect 5 0 55 14)(font "Arial" (font_size 8)))
-	(text "inst21" (rect 8 80 37 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "I[15..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
-		(text "I[15..0]" (rect 21 27 58 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "CLK" (rect 21 43 44 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 136 32)
-		(output)
-		(text "O[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
-		(text "O[15..0]" (rect 71 27 115 41)(font "Arial" (font_size 8)))
-		(line (pt 136 32)(pt 120 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 120 80))
-	)
-)
-(symbol
 	(rect 1224 176 1360 272)
 	(text "Reg1x16" (rect 5 0 55 14)(font "Arial" (font_size 8)))
 	(text "inst22" (rect 8 80 37 92)(font "Arial" ))
@@ -1091,6 +1033,64 @@ applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 1224 272 1360 368)
+	(text "Reg1x16" (rect 5 0 55 14)(font "Arial" (font_size 8)))
+	(text "inst26" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "I[15..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "I[15..0]" (rect 21 27 58 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 43 44 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "O[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "O[15..0]" (rect 71 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 80))
+	)
+)
+(symbol
+	(rect 1224 368 1360 464)
+	(text "Reg1x16" (rect 5 0 55 14)(font "Arial" (font_size 8)))
+	(text "inst27" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "I[15..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "I[15..0]" (rect 21 27 58 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 43 44 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "O[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "O[15..0]" (rect 71 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 80))
 	)
 )
 (connector
@@ -1535,46 +1535,12 @@ applicable agreement for further details.
 	(pt 1160 592)
 )
 (connector
-	(pt 1176 472)
-	(pt 1176 304)
-	(bus)
-)
-(connector
-	(pt 1224 320)
-	(pt 1208 320)
-)
-(connector
 	(pt 1224 224)
 	(pt 1208 224)
 )
 (connector
 	(pt 1192 208)
 	(pt 1224 208)
-	(bus)
-)
-(connector
-	(pt 1416 304)
-	(pt 1360 304)
-	(bus)
-)
-(connector
-	(pt 1192 472)
-	(pt 1192 400)
-	(bus)
-)
-(connector
-	(text "inv_val[15..0]" (rect 1120 384 1188 396)(font "Arial" ))
-	(pt 1192 400)
-	(pt 1224 400)
-	(bus)
-)
-(connector
-	(pt 1208 416)
-	(pt 1224 416)
-)
-(connector
-	(pt 1416 400)
-	(pt 1360 400)
 	(bus)
 )
 (connector
@@ -1651,10 +1617,6 @@ applicable agreement for further details.
 	(pt 1648 464)
 )
 (connector
-	(pt 1208 416)
-	(pt 1208 464)
-)
-(connector
 	(pt 872 336)
 	(pt 872 352)
 	(bus)
@@ -1677,30 +1639,6 @@ applicable agreement for further details.
 (connector
 	(pt 1208 224)
 	(pt 1208 272)
-)
-(connector
-	(pt 1208 272)
-	(pt 1208 320)
-)
-(connector
-	(pt 1208 320)
-	(pt 1208 416)
-)
-(connector
-	(pt 1176 472)
-	(pt 1192 472)
-	(bus)
-)
-(connector
-	(pt 1192 472)
-	(pt 1408 472)
-	(bus)
-)
-(connector
-	(text "inv_val[31..16]" (rect 1120 288 1194 300)(font "Arial" ))
-	(pt 1176 304)
-	(pt 1224 304)
-	(bus)
 )
 (connector
 	(pt 808 208)
@@ -1732,6 +1670,68 @@ applicable agreement for further details.
 	(pt 1376 288)
 	(pt 1376 384)
 	(bus)
+)
+(connector
+	(pt 1192 472)
+	(pt 1192 400)
+	(bus)
+)
+(connector
+	(pt 1176 472)
+	(pt 1192 472)
+	(bus)
+)
+(connector
+	(pt 1192 472)
+	(pt 1408 472)
+	(bus)
+)
+(connector
+	(pt 1176 472)
+	(pt 1176 304)
+	(bus)
+)
+(connector
+	(text "inv_val[31..16]" (rect 1152 288 1226 300)(font "Arial" ))
+	(pt 1224 304)
+	(pt 1176 304)
+	(bus)
+)
+(connector
+	(pt 1224 320)
+	(pt 1208 320)
+)
+(connector
+	(pt 1208 272)
+	(pt 1208 320)
+)
+(connector
+	(pt 1360 304)
+	(pt 1416 304)
+	(bus)
+)
+(connector
+	(text "inv_val[15..0]" (rect 1152 384 1220 396)(font "Arial" ))
+	(pt 1224 400)
+	(pt 1192 400)
+	(bus)
+)
+(connector
+	(pt 1360 400)
+	(pt 1416 400)
+	(bus)
+)
+(connector
+	(pt 1224 416)
+	(pt 1208 416)
+)
+(connector
+	(pt 1208 320)
+	(pt 1208 416)
+)
+(connector
+	(pt 1208 416)
+	(pt 1208 464)
 )
 (junction (pt 2072 464))
 (junction (pt 1912 400))

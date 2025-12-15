@@ -52,6 +52,13 @@ applicable agreement for further details.
 		(line (pt 104 128)(pt 104 112))
 	)
 	(port
+		(pt 0 80)
+		(input)
+		(text "Opcode[2..0]" (rect 24 72 97 86)(font "Arial" (font_size 8)))
+		(text "Opcode[2..0]" (rect 24 72 97 86)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(color 0 128 255)(line_width 3))
+	)
+	(port
 		(pt 208 32)
 		(output)
 		(text "PCWrite" (rect 0 0 44 14)(font "Arial" (font_size 8)))

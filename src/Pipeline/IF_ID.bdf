@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 256 224 272)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Flush" (rect 5 0 33 12)(font "Arial" ))
+	(text "Flush" (rect 5 0 32 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -183,7 +183,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 144 80 176 112)
+	(rect 192 128 224 160)
 	(text "GND" (rect 6 8 16 29)(font "Arial" (font_size 6))(vertical))
 	(text "inst2" (rect -1 3 11 26)(font "Arial" )(vertical)(invisible))
 	(port
@@ -208,11 +208,6 @@ applicable agreement for further details.
 (connector
 	(pt 392 104)
 	(pt 472 104)
-	(bus)
-)
-(connector
-	(pt 176 96)
-	(pt 248 96)
 	(bus)
 )
 (connector
@@ -251,4 +246,19 @@ applicable agreement for further details.
 (connector
 	(pt 320 264)
 	(pt 224 264)
+)
+(connector
+	(pt 248 96)
+	(pt 232 96)
+	(bus)
+)
+(connector
+	(pt 232 96)
+	(pt 232 144)
+	(bus)
+)
+(connector
+	(pt 232 144)
+	(pt 224 144)
+	(bus)
 )

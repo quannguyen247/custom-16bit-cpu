@@ -14,7 +14,7 @@
 
 // PROGRAM		"Quartus II 64-Bit"
 // VERSION		"Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
-// CREATED		"Sun Dec 14 22:36:11 2025"
+// CREATED		"Mon Dec 15 19:54:05 2025"
 
 module Div16(
 	CLK,
@@ -34,7 +34,7 @@ output wire	[15:0] remainder;
 wire	BIT_0;
 wire	BIT_1;
 wire	cmp_sel;
-reg	[15:0] dividend_reg1;
+wire	[15:0] dividend_reg1;
 wire	[15:0] dividend_reg2;
 wire	[15:0] divisor_reg0;
 wire	[15:0] divisor_reg1;
@@ -48,19 +48,19 @@ wire	[11:0] SYNTHESIZED_WIRE_0;
 wire	[15:0] SYNTHESIZED_WIRE_1;
 wire	[15:0] SYNTHESIZED_WIRE_2;
 wire	[15:0] SYNTHESIZED_WIRE_3;
-wire	[15:0] SYNTHESIZED_WIRE_14;
+wire	[15:0] SYNTHESIZED_WIRE_17;
 wire	[15:0] SYNTHESIZED_WIRE_6;
 wire	[15:0] SYNTHESIZED_WIRE_7;
 wire	[15:0] SYNTHESIZED_WIRE_9;
-reg	[15:0] DFF_REG0;
 wire	[15:0] SYNTHESIZED_WIRE_10;
-reg	[15:0] DFF_inst21;
-reg	[15:0] DFF_inst4;
-wire	SYNTHESIZED_WIRE_11;
-wire	[31:16] SYNTHESIZED_WIRE_12;
-wire	[0:15] SYNTHESIZED_WIRE_13;
+wire	[15:0] SYNTHESIZED_WIRE_11;
+wire	[15:0] SYNTHESIZED_WIRE_12;
+wire	[15:0] SYNTHESIZED_WIRE_13;
+wire	SYNTHESIZED_WIRE_14;
+wire	[31:16] SYNTHESIZED_WIRE_15;
+wire	[0:15] SYNTHESIZED_WIRE_16;
 
-assign	SYNTHESIZED_WIRE_13 = 0;
+assign	SYNTHESIZED_WIRE_16 = 0;
 wire	[11:0] GDFX_TEMP_SIGNAL_0;
 wire	[11:0] GDFX_TEMP_SIGNAL_1;
 
@@ -84,7 +84,7 @@ or5_0	b2v_inst1(
 	.OUT(is_large));
 
 
-Mult16bit	b2v_inst10(
+Mult16bitU	b2v_inst10(
 	.A(Q_EST),
 	.B(divisor_reg2),
 	
@@ -96,7 +96,7 @@ Full_adder_16bit	b2v_inst11(
 	.X(dividend_reg2),
 	.Y(SYNTHESIZED_WIRE_1),
 	
-	.S(SYNTHESIZED_WIRE_14));
+	.S(SYNTHESIZED_WIRE_17));
 
 
 
@@ -111,14 +111,14 @@ assign	SYNTHESIZED_WIRE_1 =  ~SYNTHESIZED_WIRE_3;
 
 
 cmp16	b2v_inst15(
-	.dataa(SYNTHESIZED_WIRE_14),
+	.dataa(SYNTHESIZED_WIRE_17),
 	.datab(divisor_reg2),
 	.ageb(cmp_sel));
 
 
 Full_adder_16bit	b2v_inst16(
 	.Cin(BIT_1),
-	.X(SYNTHESIZED_WIRE_14),
+	.X(SYNTHESIZED_WIRE_17),
 	.Y(SYNTHESIZED_WIRE_6),
 	
 	.S(SYNTHESIZED_WIRE_9));
@@ -137,7 +137,7 @@ Mux2to1_16	b2v_inst18(
 
 Mux2to1_16	b2v_inst19(
 	.sel(cmp_sel),
-	.data0x(SYNTHESIZED_WIRE_14),
+	.data0x(SYNTHESIZED_WIRE_17),
 	.data1x(SYNTHESIZED_WIRE_9),
 	.result(remainder));
 
@@ -145,25 +145,27 @@ Mux2to1_16	b2v_inst19(
 assign	SYNTHESIZED_WIRE_6 =  ~divisor_reg2;
 
 
-always@(posedge CLK)
-begin
-	begin
-	DFF_inst21[15:0] <= inv_val[31:16];
-	end
-end
+Reg1x16	b2v_inst21(
+	.CLK(CLK),
+	.I(inv_val[31:16]),
+	.O(SYNTHESIZED_WIRE_12));
 
 
-always@(posedge CLK)
-begin
-	begin
-	dividend_reg1[15:0] <= DFF_REG0[15:0];
-	end
-end
+Reg1x16	b2v_inst22(
+	.CLK(CLK),
+	.I(SYNTHESIZED_WIRE_10),
+	.O(dividend_reg1));
+
+
+Reg1x16	b2v_inst23(
+	.CLK(CLK),
+	.I(dividend),
+	.O(SYNTHESIZED_WIRE_10));
 
 
 Reg1x16	b2v_inst24(
 	.CLK(CLK),
-	.I(SYNTHESIZED_WIRE_10),
+	.I(SYNTHESIZED_WIRE_11),
 	.O(Q_EST));
 
 
@@ -192,12 +194,10 @@ Reg1x16	b2v_inst31(
 	.O(divisor_reg1));
 
 
-always@(posedge CLK)
-begin
-	begin
-	DFF_inst4[15:0] <= inv_val[15:0];
-	end
-end
+Reg1x16	b2v_inst4(
+	.CLK(CLK),
+	.I(inv_val[15:0]),
+	.O(SYNTHESIZED_WIRE_13));
 
 
 Mux2to1_12	b2v_inst5(
@@ -209,14 +209,14 @@ Mux2to1_12	b2v_inst5(
 
 Mult16bitU	b2v_inst6(
 	.A(dividend_reg1),
-	.B(DFF_inst21),
-	.HI(SYNTHESIZED_WIRE_12),
+	.B(SYNTHESIZED_WIRE_12),
+	.HI(SYNTHESIZED_WIRE_15),
 	.LO(RMD1));
 
 
 Mult16bitU	b2v_inst7(
 	.A(dividend_reg1),
-	.B(DFF_inst4),
+	.B(SYNTHESIZED_WIRE_13),
 	.HI(RMD2)
 	);
 
@@ -225,24 +225,16 @@ Full_adder_16bit	b2v_inst8(
 	.Cin(BIT_0),
 	.X(RMD1),
 	.Y(RMD2),
-	.Cout(SYNTHESIZED_WIRE_11)
+	.Cout(SYNTHESIZED_WIRE_14)
 	);
 
 
 Full_adder_16bit	b2v_inst9(
-	.Cin(SYNTHESIZED_WIRE_11),
-	.X(SYNTHESIZED_WIRE_12),
-	.Y(SYNTHESIZED_WIRE_13),
+	.Cin(SYNTHESIZED_WIRE_14),
+	.X(SYNTHESIZED_WIRE_15),
+	.Y(SYNTHESIZED_WIRE_16),
 	
-	.S(SYNTHESIZED_WIRE_10));
-
-
-always@(posedge CLK)
-begin
-	begin
-	DFF_REG0[15:0] <= dividend[15:0];
-	end
-end
+	.S(SYNTHESIZED_WIRE_11));
 
 assign	BIT_0 = 0;
 assign	BIT_1 = 1;

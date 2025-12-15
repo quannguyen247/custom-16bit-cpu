@@ -87,11 +87,11 @@ applicable agreement for further details.
 		(line (pt 160 72)(pt 144 72)(line_width 3))
 	)
 	(port
-		(pt 160 48)
+		(pt 160 56)
 		(output)
 		(text "OA[15..0]" (rect 0 0 54 14)(font "Arial" (font_size 8)))
-		(text "OA[15..0]" (rect 85 43 139 57)(font "Arial" (font_size 8)))
-		(line (pt 160 48)(pt 144 48)(line_width 3))
+		(text "OA[15..0]" (rect 85 51 139 65)(font "Arial" (font_size 8)))
+		(line (pt 160 56)(pt 144 56)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 144 176))

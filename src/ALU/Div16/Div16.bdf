@@ -393,42 +393,6 @@ applicable agreement for further details.
 	(rotate270)
 )
 (symbol
-	(rect 2152 352 2304 448)
-	(text "Mult16bit" (rect 5 0 54 14)(font "Arial" (font_size 8)))
-	(text "inst10" (rect 8 80 37 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "A[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
-		(text "A[15..0]" (rect 21 27 65 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "B[15..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
-		(text "B[15..0]" (rect 21 43 64 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 152 32)
-		(output)
-		(text "LO[15..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
-		(text "LO[15..0]" (rect 80 27 131 41)(font "Arial" (font_size 8)))
-		(line (pt 152 32)(pt 136 32)(line_width 3))
-	)
-	(port
-		(pt 152 48)
-		(output)
-		(text "HI[15..0]" (rect 0 0 46 14)(font "Arial" (font_size 8)))
-		(text "HI[15..0]" (rect 85 43 131 57)(font "Arial" (font_size 8)))
-		(line (pt 152 48)(pt 136 48)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 136 80))
-	)
-)
-(symbol
 	(rect 2424 336 2568 432)
 	(text "Full_adder_16bit" (rect 5 0 98 14)(font "Arial" (font_size 8)))
 	(text "inst11" (rect 8 80 37 92)(font "Arial" ))
@@ -1091,6 +1055,42 @@ applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 120 80))
+	)
+)
+(symbol
+	(rect 2152 352 2304 448)
+	(text "Mult16bitU" (rect 5 0 62 14)(font "Arial" (font_size 8)))
+	(text "inst10" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "A[15..0]" (rect 21 27 65 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B[15..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B[15..0]" (rect 21 43 64 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 152 48)
+		(output)
+		(text "HI[31..16]" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "HI[31..16]" (rect 78 43 131 57)(font "Arial" (font_size 8)))
+		(line (pt 152 48)(pt 136 48)(line_width 3))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "LO[15..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "LO[15..0]" (rect 80 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
 	)
 )
 (connector

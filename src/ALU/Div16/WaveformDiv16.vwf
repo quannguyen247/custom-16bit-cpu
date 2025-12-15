@@ -727,14 +727,12 @@ TRANSITION_LIST("CLK")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 10.0;
 		NODE
 		{
-			REPEAT = 49;
+			REPEAT = 50;
 			LEVEL 0 FOR 10.0;
 			LEVEL 1 FOR 10.0;
 		}
-		LEVEL 0 FOR 10.0;
 	}
 }
 
@@ -815,9 +813,8 @@ TRANSITION_LIST("dividend[7]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 970.0;
+		LEVEL 0 FOR 980.0;
 	}
 }
 
@@ -997,9 +994,8 @@ TRANSITION_LIST("divisor[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 970.0;
+		LEVEL 0 FOR 980.0;
 	}
 }
 
@@ -1008,7 +1004,8 @@ TRANSITION_LIST("divisor[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 980.0;
 	}
 }
 

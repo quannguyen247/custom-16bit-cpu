@@ -59,20 +59,6 @@ applicable agreement for further details.
 		(line (pt 208 24)(pt 192 24))
 	)
 	(port
-		(pt 208 56)
-		(output)
-		(text "MemRead" (rect 8 0 63 14)(font "Arial" (font_size 8)))
-		(text "MemRead" (rect 104 48 159 62)(font "Arial" (font_size 8)))
-		(line (pt 208 56)(pt 192 56))
-	)
-	(port
-		(pt 208 72)
-		(output)
-		(text "MemWrite" (rect 8 0 63 14)(font "Arial" (font_size 8)))
-		(text "MemWrite" (rect 104 64 159 78)(font "Arial" (font_size 8)))
-		(line (pt 208 72)(pt 192 72))
-	)
-	(port
 		(pt 208 88)
 		(output)
 		(text "Branch" (rect 8 0 49 14)(font "Arial" (font_size 8)))
@@ -99,6 +85,20 @@ applicable agreement for further details.
 		(text "Ext" (rect 157 168 174 182)(font "Arial" (font_size 8)))
 		(text "Ext" (rect 104 168 121 182)(font "Arial" (font_size 8)))
 		(line (pt 208 176)(pt 192 176))
+	)
+	(port
+		(pt 208 56)
+		(output)
+		(text "MemEN" (rect 8 0 49 14)(font "Arial" (font_size 8)))
+		(text "MemEN" (rect 104 48 145 62)(font "Arial" (font_size 8)))
+		(line (pt 208 56)(pt 192 56))
+	)
+	(port
+		(pt 208 72)
+		(output)
+		(text "MemRW" (rect 8 0 54 14)(font "Arial" (font_size 8)))
+		(text "MemRW" (rect 104 64 150 78)(font "Arial" (font_size 8)))
+		(line (pt 208 72)(pt 192 72))
 	)
 	(drawing
 		(rectangle (rect 16 16 192 192))

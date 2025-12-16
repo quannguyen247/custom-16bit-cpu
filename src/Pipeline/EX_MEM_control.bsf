@@ -40,15 +40,15 @@ applicable agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "MemRead" (rect 0 0 55 14)(font "Arial" (font_size 8)))
-		(text "MemRead" (rect 21 59 76 73)(font "Arial" (font_size 8)))
+		(text "MemEN" (rect 0 0 41 14)(font "Arial" (font_size 8)))
+		(text "MemEN" (rect 21 59 62 73)(font "Arial" (font_size 8)))
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
 		(pt 0 80)
 		(input)
-		(text "MemWrite" (rect 0 0 55 14)(font "Arial" (font_size 8)))
-		(text "MemWrite" (rect 21 75 76 89)(font "Arial" (font_size 8)))
+		(text "MemRW" (rect 0 0 46 14)(font "Arial" (font_size 8)))
+		(text "MemRW" (rect 21 75 67 89)(font "Arial" (font_size 8)))
 		(line (pt 0 80)(pt 16 80))
 	)
 	(port
@@ -75,15 +75,15 @@ applicable agreement for further details.
 	(port
 		(pt 256 64)
 		(output)
-		(text "MemRead_out" (rect 0 0 80 14)(font "Arial" (font_size 8)))
-		(text "MemRead_out" (rect 155 59 235 73)(font "Arial" (font_size 8)))
+		(text "MemEN_out" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "MemEN_out" (rect 169 59 235 73)(font "Arial" (font_size 8)))
 		(line (pt 256 64)(pt 240 64))
 	)
 	(port
 		(pt 256 80)
 		(output)
-		(text "MemWrite_out" (rect 0 0 80 14)(font "Arial" (font_size 8)))
-		(text "MemWrite_out" (rect 155 75 235 89)(font "Arial" (font_size 8)))
+		(text "MemRW_out" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "MemRW_out" (rect 165 75 235 89)(font "Arial" (font_size 8)))
 		(line (pt 256 80)(pt 240 80))
 	)
 	(drawing

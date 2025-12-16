@@ -44,13 +44,6 @@ applicable agreement for further details.
 		(text "ALUControl[3..0]" (rect 102 27 195 41)(font "Arial" (font_size 8)))
 		(line (pt 216 32)(pt 200 32)(line_width 3))
 	)
-	(port
-		(pt 216 48)
-		(output)
-		(text "WE_HILO" (rect 0 0 53 14)(font "Arial" (font_size 8)))
-		(text "WE_HILO" (rect 142 43 195 57)(font "Arial" (font_size 8)))
-		(line (pt 216 48)(pt 200 48))
-	)
 	(drawing
 		(rectangle (rect 16 16 200 80))
 	)

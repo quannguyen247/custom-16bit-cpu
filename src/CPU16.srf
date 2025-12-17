@@ -9,9 +9,11 @@
 { "" "" "" "No exact pin location assignment(s) for 33 pins of 33 total pins" {  } {  } 0 169085 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "Node: PC:inst31\|b0 was determined to be a clock but was found without an associated clock assignment." {  } {  } 0 332060 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "Output pins are stuck at VCC or GND" {  } {  } 0 13024 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Removed fan-outs from the following always-disabled I/O buffers" {  } {  } 0 13027 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "*" {  } {  } 0 20028 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "*" {  } {  } 0 10850 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "*" {  } {  } 0 335093 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "*" {  } {  } 0 292013 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "*" {  } {  } 0 306006 "" 0 0 "Quartus II" 0 -1 0 ""}
 { "" "" "" "*" {  } {  } 0 169085 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "*" {  } {  } 0 14284 "" 0 0 "Quartus II" 0 -1 0 ""}

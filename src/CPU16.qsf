@@ -86,7 +86,7 @@ set_global_assignment -name OPTIMIZE_POWER_DURING_SYNTHESIS "NORMAL COMPILATION"
 set_global_assignment -name PRE_MAPPING_RESYNTHESIS OFF
 set_global_assignment -name ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP ON
 set_global_assignment -name ECO_OPTIMIZE_TIMING OFF
-set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name SMART_RECOMPILE OFF
 set_global_assignment -name ROUTER_TIMING_OPTIMIZATION_LEVEL MAXIMUM
 set_global_assignment -name AUTO_PACKED_REGISTERS_STRATIXII NORMAL
 set_global_assignment -name MUX_RESTRUCTURE OFF
@@ -210,3 +210,4 @@ set_global_assignment -name QIP_FILE Submodule/Mux2to1_3.qip
 set_global_assignment -name VECTOR_WAVEFORM_FILE IMEM64x16/cpuuu.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE IMEM64x16/HAZZZ.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE mduu.vwf
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON

@@ -1,7 +1,72 @@
-E405
-E803
-0530
-0541
-050E
-2482
-4901
+// --- PHAN 1: KHOI TAO & LOGIC CO BAN (Lines 0-28) ---
+E414  // 00: li R1, 20
+E804  // 01: li R2, 4
+FC0A  // 02: li R7, 10
+0537  // 03: nand R1, R2, R3
+0544  // 04: and R1, R2, R4
+0555  // 05: or R1, R2, R5
+0536  // 06: xor R1, R2, R3
+054C  // 07: nor R1, R2, R4
+0550  // 08: add R1, R2, R5
+0531  // 09: sub R1, R2, R3
+054D  // 10: slt R1, R2, R4
+0452  // 11: inc R1, R5
+0833  // 12: dec R2, R3
+0448  // 13: shfl R1, R4
+0459  // 14: shfr R1, R5
+043A  // 15: sllll R1, R3
+044B  // 16: srrrr R1, R4
+2585  // 17: addi R1, R5, 5
+44C5  // 18: subi R1, R3, 5
+A40A  // 19: sw R1, 10
+0000  // 20: nop
+980A  // 21: lw R6, 10
+050E  // 22: mult R1, R2
+050F  // 23: div R1, R2
+6482  // 24: beq R1, R2, 2
+0000  // 25: nop
+C801  // 26: jpnz R2, 1
+0000  // 27: nop
+E400  // 28: li R1, 0
+
+// --- PHAN 2: STRESS TEST ALU (Lines 29-45) ---
+ECFF  // 29: li R3, 255   (Test Max 8-bit)
+F001  // 30: li R4, 1     (So nho nhat)
+0750  // 31: add R3, R4, R5 (R5 = 256 -> Vuot 8 bit)
+0000  // 32: nop          (Stall cho add)
+0858  // 33: shfl R4, R5  (R5 = 1 << 1 = 2) - Reuse ngay Register vua tinh
+086A  // 34: sllll R4, R6 (R6 = 1 << 4 = 16)
+0AF5  // 35: or R5, R6, R7 (Ghep bit)
+0AC4  // 36: and R5, R6, R1 (Loc bit)
+0726  // 37: xor R3, R4, R2 (Dao bit lung tung)
+0757  // 38: nand R3, R4, R5 (Logic phuc tap)
+03ED  // 39: slt R1, R7, R6 (So sanh)
+6362  // 40: beq R1, R6, 2  (Branch ao)
+0000  // 41: nop
+BF1E  // 42: sw R7, 30    (Luu tam R7 ra RAM[30])
+EA00  // 43: li R5, 0     (Xoa R5)
+951E  // 44: lw R5, 30    (Load lai R7 vao R5 -> Test RAM Integrity)
+0F51  // 45: sub R7, R5, R1 (Tinh toan sau khi Load)
+
+// --- PHAN 3: HEAVY ARITHMETIC (Lines 46-55) ---
+06E0  // 46: mult R3, R3  (Binh phuong so lon)
+0000  // 47: nop
+0F0F  // 48: div R7, R4   (Chia so le)
+C405  // 49: jpnz R1, 5   (Nhay xa neu R1 khac 0)
+0537  // 50: nand R1, R2, R3 (Lenh dem 1)
+0544  // 51: and R1, R2, R4  (Lenh dem 2)
+0555  // 52: or R1, R2, R5   (Lenh dem 3)
+0536  // 53: xor R1, R2, R3  (Lenh dem 4)
+054C  // 54: nor R1, R2, R4  (Lenh dem 5 - Dich den cua jpnz)
+2585  // 55: addi R1, R5, 5
+
+// --- PHAN 4: INFINITE LOOP / COUNTDOWN (Lines 56-63) ---
+E405  // 56: li R1, 5     (Khoi tao bien dem Loop = 5)
+0000  // 57: nop          (Label: LOOP_START)
+0413  // 58: dec R1, R1   (R1 = R1 - 1)
+0000  // 59: nop          (Delay tranh Hazard cho lenh jpnz)
+C4FE  // 60: jpnz R1, -2  (Neu R1 != 0, nhay lui ve dong 58)
+      //     Hex C4FE: Op(110)|Rd(001)|Imm(-2 = 1111111110) -> C4FE
+0000  // 61: nop          (Thoat Loop)
+E4AA  // 62: li R1, 170   (Bao hieu ket thuc 0xAA)
+A43F  // 63: sw R1, 63    (Ghi dau hieu ket thuc vao cuoi RAM)

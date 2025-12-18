@@ -117,22 +117,6 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 16 848 192 864)
-	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "MemtoReg[1..0]" (rect 5 0 84 12)(font "Arial" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 92 12)(pt 117 12))
-		(line (pt 92 4)(pt 117 4))
-		(line (pt 121 8)(pt 176 8))
-		(line (pt 92 12)(pt 92 4))
-		(line (pt 117 4)(pt 121 8))
-		(line (pt 117 12)(pt 121 8))
-	)
-	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
 	(rect 24 952 192 968)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "ALUOp[1..0]" (rect 5 0 66 12)(font "Arial" ))
@@ -183,7 +167,7 @@ applicable agreement for further details.
 	(input)
 	(rect 24 640 192 656)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "MemEN" (rect 5 0 44 12)(font "Arial" ))
+	(text "MemEN" (rect 5 0 43 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -199,7 +183,23 @@ applicable agreement for further details.
 	(input)
 	(rect 24 744 192 760)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "MemRW" (rect 5 0 48 12)(font "Arial" ))
+	(text "MemRW" (rect 5 0 47 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 848 192 864)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "MemtoReg" (rect 5 0 59 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -264,22 +264,6 @@ applicable agreement for further details.
 	(rect 560 320 739 336)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ALUsrc_out[1..0]" (rect 90 0 173 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8))
-		(line (pt 52 4)(pt 78 4))
-		(line (pt 52 12)(pt 78 12))
-		(line (pt 52 12)(pt 52 4))
-		(line (pt 78 4)(pt 82 8))
-		(line (pt 82 8)(pt 78 12))
-		(line (pt 78 12)(pt 82 8))
-	)
-)
-(pin
-	(output)
-	(rect 560 840 756 856)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "MemtoReg_out[1..0]" (rect 90 0 190 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -360,6 +344,22 @@ applicable agreement for further details.
 	(rect 560 736 736 752)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "MemRW_out" (rect 90 0 153 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 560 840 736 856)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "MemtoReg_out" (rect 90 0 164 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -1408,11 +1408,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 560 848)
-	(pt 528 848)
-	(bus)
-)
-(connector
 	(pt 560 328)
 	(pt 528 328)
 	(bus)
@@ -1496,11 +1491,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 192 856)
-	(pt 360 856)
-	(bus)
-)
-(connector
 	(pt 192 960)
 	(pt 360 960)
 	(bus)
@@ -1525,16 +1515,6 @@ applicable agreement for further details.
 (connector
 	(pt 424 328)
 	(pt 464 328)
-	(bus)
-)
-(connector
-	(pt 424 848)
-	(pt 464 848)
-	(bus)
-)
-(connector
-	(pt 328 840)
-	(pt 360 840)
 	(bus)
 )
 (connector
@@ -1602,6 +1582,22 @@ applicable agreement for further details.
 (connector
 	(pt 248 944)
 	(pt 248 1048)
+)
+(connector
+	(pt 360 856)
+	(pt 192 856)
+)
+(connector
+	(pt 360 840)
+	(pt 328 840)
+)
+(connector
+	(pt 464 848)
+	(pt 424 848)
+)
+(connector
+	(pt 560 848)
+	(pt 528 848)
 )
 (junction (pt 448 240))
 (junction (pt 448 344))

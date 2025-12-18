@@ -45,13 +45,6 @@ applicable agreement for further details.
 		(line (pt 208 120)(pt 192 120)(line_width 3))
 	)
 	(port
-		(pt 208 40)
-		(output)
-		(text "MemtoReg[1..0]" (rect 8 0 95 14)(font "Arial" (font_size 8)))
-		(text "MemtoReg[1..0]" (rect 104 32 191 46)(font "Arial" (font_size 8)))
-		(line (pt 208 40)(pt 192 40)(line_width 3))
-	)
-	(port
 		(pt 208 24)
 		(output)
 		(text "RegWrite" (rect 8 0 59 14)(font "Arial" (font_size 8)))
@@ -99,6 +92,13 @@ applicable agreement for further details.
 		(text "MemRW" (rect 8 0 54 14)(font "Arial" (font_size 8)))
 		(text "MemRW" (rect 104 64 150 78)(font "Arial" (font_size 8)))
 		(line (pt 208 72)(pt 192 72))
+	)
+	(port
+		(pt 208 40)
+		(output)
+		(text "MemtoReg" (rect 8 0 67 14)(font "Arial" (font_size 8)))
+		(text "MemtoReg" (rect 104 32 163 46)(font "Arial" (font_size 8)))
+		(line (pt 208 40)(pt 192 40)(color 128 0 255))
 	)
 	(drawing
 		(rectangle (rect 16 16 192 192))
